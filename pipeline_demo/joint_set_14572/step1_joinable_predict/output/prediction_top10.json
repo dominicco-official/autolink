@@ -1,0 +1,457 @@
+{
+  "joint_set": "joint_set_14572",
+  "checkpoint": "pretrained/paper/last_run_0.ckpt",
+  "body_one": "55817_6ac2912d_0016_1",
+  "body_two": "55817_6ac2912d_0016_2",
+  "body_one_nodes": 28,
+  "body_two_nodes": 48,
+  "k": 10,
+  "run": {
+    "when": "2026-10-25T19:05:01",
+    "seconds": 13.07,
+    "live": true
+  },
+  "note": "Probabilities are a softmax over ALL body_one x body_two node pairs, so they are small; rank is what matters. Candidates whose axis cannot be computed (NURBS) are dropped by JoinABLe.",
+  "candidates": [
+    {
+      "rank": 1,
+      "probability": 0.22386150062084198,
+      "body_one": {
+        "index": 0,
+        "entity": "BRepFace",
+        "geometry": "Cylinder",
+        "radius": 0.07939999999999992,
+        "area_or_length": 0.15839596000134362,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 1.299750617050716,
+          "y": 0.0,
+          "z": 9.231474312158816e-05
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 8,
+        "entity": "BRepFace",
+        "geometry": "Cylinder",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.07917303575500206,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.0,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "probability": 0.09112799912691116,
+      "body_one": {
+        "index": 12,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999992,
+        "area_or_length": 0.49888491339005864,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 1.299750617050716,
+          "y": 0.0,
+          "z": 9.231474312158816e-05
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": -0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 39,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.4988849133900572,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.3175,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": 1.0,
+          "z": -0.0,
+          "length": 1.0
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "probability": 0.09112799167633057,
+      "body_one": {
+        "index": 12,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999992,
+        "area_or_length": 0.49888491339005864,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 1.299750617050716,
+          "y": 0.0,
+          "z": 9.231474312158816e-05
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": -0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 36,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.4988849133900572,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.15880000000000002,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "probability": 0.04401722177863121,
+      "body_one": {
+        "index": 1,
+        "entity": "BRepFace",
+        "geometry": "Plane",
+        "radius": null,
+        "area_or_length": 0.019805731061585306,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 1.299750617050716,
+          "y": -0.3175,
+          "z": 9.231474312158816e-05
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 8,
+        "entity": "BRepFace",
+        "geometry": "Cylinder",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.07917303575500206,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.0,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "probability": 0.04322202131152153,
+      "body_one": {
+        "index": 11,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999992,
+        "area_or_length": 0.49888491339005864,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 1.299750617050716,
+          "y": -0.3175,
+          "z": 9.231474312158816e-05
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 36,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.4988849133900572,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.15880000000000002,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "probability": 0.04322201386094093,
+      "body_one": {
+        "index": 11,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999992,
+        "area_or_length": 0.49888491339005864,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 1.299750617050716,
+          "y": -0.3175,
+          "z": 9.231474312158816e-05
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 39,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.4988849133900572,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.3175,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": 1.0,
+          "z": -0.0,
+          "length": 1.0
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "probability": 0.03185698017477989,
+      "body_one": {
+        "index": 0,
+        "entity": "BRepFace",
+        "geometry": "Cylinder",
+        "radius": 0.07939999999999992,
+        "area_or_length": 0.15839596000134362,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 1.299750617050716,
+          "y": 0.0,
+          "z": 9.231474312158816e-05
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 36,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.4988849133900572,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.15880000000000002,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "probability": 0.031856976449489594,
+      "body_one": {
+        "index": 0,
+        "entity": "BRepFace",
+        "geometry": "Cylinder",
+        "radius": 0.07939999999999992,
+        "area_or_length": 0.15839596000134362,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 1.299750617050716,
+          "y": 0.0,
+          "z": 9.231474312158816e-05
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 39,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.4988849133900572,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.3175,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": 1.0,
+          "z": -0.0,
+          "length": 1.0
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "probability": 0.028085993602871895,
+      "body_one": {
+        "index": 11,
+        "entity": "BRepEdge",
+        "geometry": "Circle3D",
+        "radius": 0.07939999999999992,
+        "area_or_length": 0.49888491339005864,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 1.299750617050716,
+          "y": -0.3175,
+          "z": 9.231474312158816e-05
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 8,
+        "entity": "BRepFace",
+        "geometry": "Cylinder",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.07917303575500206,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.0,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "probability": 0.027614615857601166,
+      "body_one": {
+        "index": 2,
+        "entity": "BRepFace",
+        "geometry": "Cylinder",
+        "radius": 0.11905000000000003,
+        "area_or_length": 1.7218516099859364,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": 0.0,
+          "y": 0.39680000000000004,
+          "z": 0.0
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      },
+      "body_two": {
+        "index": 8,
+        "entity": "BRepFace",
+        "geometry": "Cylinder",
+        "radius": 0.07939999999999969,
+        "area_or_length": 0.07917303575500206,
+        "axis_origin": {
+          "type": "Point3D",
+          "x": -8.901883438165312,
+          "y": 0.0,
+          "z": 0.00038582476977752633
+        },
+        "axis_direction": {
+          "type": "Vector3D",
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "length": 1.0
+        }
+      }
+    }
+  ]
+}

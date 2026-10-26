@@ -1,0 +1,263 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "2": {
+      "size_x": {
+        "d_position/d_param": 1.0
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "size_z": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "5": {
+      "size_x": {
+        "d_position/d_param": 0.5
+      },
+      "size_z": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "4": {
+      "size_x": {
+        "d_position/d_param": 0.5
+      },
+      "height": {
+        "d_position/d_param": 1.0
+      },
+      "size_z": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "1": {
+      "size_x": {
+        "d_position/d_param": 0.5
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "size_x": {
+        "d_position/d_param": 0.5
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "size_z": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "0": {
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "size_z": {
+        "d_position/d_param": 0.5
+      }
+    }
+  },
+  "part2": {
+    "14": {
+      "length": {
+        "d_position/d_param": 0.5
+      },
+      "width": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "13": {
+      "length": {
+        "d_position/d_param": 0.5173
+      },
+      "height": {
+        "d_position/d_param": 1.0
+      },
+      "width": {
+        "d_position/d_param": 0.5167
+      },
+      "corner_fillet": {
+        "d_position/d_param": 0.0001
+      },
+      "pocket_size": {
+        "d_position/d_param": 0.0053
+      },
+      "pocket_dx": {
+        "d_position/d_param": 0.0343
+      },
+      "pocket_dz": {
+        "d_position/d_param": 0.0343
+      }
+    },
+    "9": {
+      "length": {
+        "d_position/d_param": 0.5
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "10": {
+      "length": {
+        "d_position/d_param": 1.0
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "corner_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5139
+      }
+    },
+    "11": {
+      "length": {
+        "d_position/d_param": 1.0
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "width": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "12": {
+      "length": {
+        "d_position/d_param": 1.0
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "width": {
+        "d_position/d_param": 1.0
+      },
+      "corner_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5139
+      }
+    },
+    "5": {
+      "length": {
+        "d_position/d_param": 0.5
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "width": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "7": {
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "width": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "8": {
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "corner_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5139
+      }
+    },
+    "6": {
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "width": {
+        "d_position/d_param": 1.0
+      },
+      "corner_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5139
+      }
+    },
+    "3": {
+      "height": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_size": {
+        "d_position/d_param": 0.5
+      },
+      "pocket_depth": {
+        "d_position/d_param": 0.5
+      },
+      "pocket_dx": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_dz": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "0": {
+      "height": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_size": {
+        "d_position/d_param": 0.5
+      },
+      "pocket_depth": {
+        "d_position/d_param": 0.5
+      },
+      "pocket_dx": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_dz": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "1": {
+      "height": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_size": {
+        "d_position/d_param": 0.5
+      },
+      "pocket_depth": {
+        "d_position/d_param": 0.5
+      },
+      "pocket_dx": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_dz": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "2": {
+      "height": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_size": {
+        "d_position/d_param": 0.5
+      },
+      "pocket_depth": {
+        "d_position/d_param": 0.5
+      },
+      "pocket_dx": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_dz": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "4": {
+      "height": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_depth": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_dx": {
+        "d_position/d_param": 1.0
+      },
+      "pocket_dz": {
+        "d_position/d_param": 1.0
+      }
+    }
+  }
+}

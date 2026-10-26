@@ -1,0 +1,334 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "3": {
+      "disc_radius": {
+        "d_position/d_param": 0.5785
+      },
+      "tab_width": {
+        "d_position/d_param": 0.2544
+      },
+      "tab_height": {
+        "d_position/d_param": 0.2473
+      },
+      "tab_radius": {
+        "d_position/d_param": 0.2722
+      },
+      "hole_radius": {
+        "d_position/d_param": 0.3571
+      },
+      "hole_chamfer": {
+        "d_position/d_param": 0.3571
+      }
+    },
+    "5": {
+      "disc_radius": {
+        "d_position/d_param": 0.5785
+      },
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "tab_width": {
+        "d_position/d_param": 0.2544
+      },
+      "tab_height": {
+        "d_position/d_param": 0.2473
+      },
+      "tab_radius": {
+        "d_position/d_param": 0.2722
+      },
+      "hole_radius": {
+        "d_position/d_param": 0.3571
+      },
+      "hole_chamfer": {
+        "d_position/d_param": 0.3571
+      }
+    },
+    "10": {
+      "disc_radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.6366
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "9": {
+      "disc_radius": {
+        "d_position/d_param": 0.5
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "tab_width": {
+        "d_position/d_param": 0.25
+      }
+    },
+    "11": {
+      "disc_radius": {
+        "d_position/d_param": 0.5
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "tab_width": {
+        "d_position/d_param": 0.25
+      }
+    },
+    "2": {
+      "thickness": {
+        "d_position/d_param": 0.5003
+      },
+      "tab_height": {
+        "d_position/d_param": 1.0002
+      },
+      "hole_radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.0025
+      },
+      "hole_chamfer": {
+        "d_position/d_param": 0.0371
+      },
+      "drill_radius": {
+        "d_position/d_param": 0.2091
+      },
+      "drill_dir_y": {
+        "d_position/d_param": 0.0003
+      },
+      "drill_dir_z": {
+        "d_position/d_param": 0.0053
+      },
+      "drill_pt_y": {
+        "d_position/d_param": 0.0032
+      },
+      "drill_pt_z": {
+        "d_position/d_param": 0.0535
+      }
+    },
+    "0": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "tab_width": {
+        "d_position/d_param": 0.0035
+      },
+      "tab_height": {
+        "d_position/d_param": 0.9979
+      },
+      "tab_radius": {
+        "d_position/d_param": 0.4996
+      },
+      "hole_radius": {
+        "d_position/d_param": 0.5373
+      },
+      "drill_radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.2106
+      },
+      "drill_dir_y": {
+        "d_position/d_param": 0.017
+      },
+      "drill_dir_z": {
+        "d_position/d_param": 0.2807
+      },
+      "drill_pt_y": {
+        "d_position/d_param": 0.0637
+      },
+      "drill_pt_z": {
+        "d_position/d_param": 1.0598
+      }
+    },
+    "4": {
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "tab_height": {
+        "d_position/d_param": 1.0
+      },
+      "hole_radius": {
+        "d_position/d_param": 0.0027
+      },
+      "hole_chamfer": {
+        "d_position/d_param": 0.4686
+      }
+    },
+    "7": {
+      "thickness": {
+        "d_position/d_param": 0.5001
+      },
+      "tab_width": {
+        "d_radius/d_param": 0.5021,
+        "d_position/d_param": 0.0238
+      },
+      "tab_height": {
+        "d_position/d_param": 1.0001
+      },
+      "tab_radius": {
+        "d_radius/d_param": 0.0082,
+        "d_position/d_param": 0.5883
+      },
+      "drill_radius": {
+        "d_position/d_param": 0.1271
+      },
+      "drill_dir_y": {
+        "d_position/d_param": 0.001
+      },
+      "drill_dir_z": {
+        "d_position/d_param": 0.0163
+      },
+      "drill_pt_y": {
+        "d_position/d_param": 0.0021
+      },
+      "drill_pt_z": {
+        "d_position/d_param": 0.035
+      }
+    },
+    "8": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "tab_width": {
+        "d_position/d_param": 0.5
+      },
+      "tab_height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "6": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "tab_width": {
+        "d_position/d_param": 0.5
+      },
+      "tab_height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "1": {
+      "tab_height": {
+        "d_position/d_param": 1.0
+      },
+      "hole_radius": {
+        "d_position/d_param": 0.0027
+      },
+      "hole_chamfer": {
+        "d_position/d_param": 0.4686
+      }
+    }
+  },
+  "part2": {
+    "2": {
+      "radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.2689
+      },
+      "length": {
+        "d_position/d_param": 0.5001
+      },
+      "chamfer": {
+        "d_position/d_param": 0.0191
+      },
+      "flat_y": {
+        "d_position/d_param": 0.244
+      },
+      "flat_length": {
+        "d_position/d_param": 0.034
+      }
+    },
+    "7": {
+      "radius": {
+        "d_position/d_param": 0.4072
+      },
+      "length": {
+        "d_position/d_param": 1.0
+      },
+      "flat_y": {
+        "d_position/d_param": 0.5933
+      },
+      "flat_length": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "4": {
+      "radius": {
+        "d_position/d_param": 0.1911
+      },
+      "length": {
+        "d_position/d_param": 1.0
+      },
+      "chamfer": {
+        "d_position/d_param": 0.4998
+      },
+      "flat_y": {
+        "d_position/d_param": 1.0513
+      },
+      "flat_length": {
+        "d_position/d_param": 0.5002
+      }
+    },
+    "3": {
+      "radius": {
+        "d_position/d_param": 0.9992
+      },
+      "length": {
+        "d_position/d_param": 1.0
+      },
+      "chamfer": {
+        "d_position/d_param": 0.7972
+      },
+      "flat_y": {
+        "d_position/d_param": 1.0937
+      }
+    },
+    "0": {
+      "radius": {
+        "d_position/d_param": 0.4072
+      },
+      "flat_y": {
+        "d_position/d_param": 0.5933
+      },
+      "flat_length": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "1": {
+      "radius": {
+        "d_position/d_param": 0.1911
+      },
+      "chamfer": {
+        "d_position/d_param": 0.4998
+      },
+      "flat_y": {
+        "d_position/d_param": 1.0513
+      },
+      "flat_length": {
+        "d_position/d_param": 0.5002
+      }
+    },
+    "5": {
+      "radius": {
+        "d_position/d_param": 0.9992
+      },
+      "chamfer": {
+        "d_position/d_param": 0.7972
+      },
+      "flat_y": {
+        "d_position/d_param": 1.0937
+      }
+    },
+    "8": {
+      "radius": {
+        "d_position/d_param": 0.1271
+      },
+      "length": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "6": {
+      "radius": {
+        "d_position/d_param": 0.1271
+      }
+    }
+  }
+}

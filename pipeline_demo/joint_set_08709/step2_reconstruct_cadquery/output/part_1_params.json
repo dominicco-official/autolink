@@ -1,0 +1,12 @@
+{
+  "top_z": 60.0,
+  "top_radius": 1.1,
+  "bore_radius": 0.513675,
+  "bore_floor_z": 54.9,
+  "cone_end_radius": 1.828831,
+  "cone_end_z": 49.423748,
+  "nose_radius": 1.8,
+  "nose_center_z": 49.3,
+  "nose_center_r": 0.033089,
+  "tip_z": 47.5
+}

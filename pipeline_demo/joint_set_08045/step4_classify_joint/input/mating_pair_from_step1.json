@@ -1,0 +1,43 @@
+{
+  "part1": {
+    "index": 0,
+    "entity": "BRepFace",
+    "geometry": "Plane",
+    "radius": null,
+    "area_or_length": 1.2667686671254543,
+    "axis_origin": {
+      "type": "Point3D",
+      "x": 0.0,
+      "y": -2.4753390837348507e-17,
+      "z": 0.0
+    },
+    "axis_direction": {
+      "type": "Vector3D",
+      "x": 0.0,
+      "y": 0.0,
+      "z": -1.0,
+      "length": 1.0
+    }
+  },
+  "part2": {
+    "index": 6,
+    "entity": "BRepFace",
+    "geometry": "Plane",
+    "radius": null,
+    "area_or_length": 0.8107319665559964,
+    "axis_origin": {
+      "type": "Point3D",
+      "x": -12.7,
+      "y": 0.0,
+      "z": -1.980271290919843e-17
+    },
+    "axis_direction": {
+      "type": "Vector3D",
+      "x": 1.0,
+      "y": 0.0,
+      "z": 0.0,
+      "length": 1.0
+    }
+  },
+  "probability": 0.1255456507205963
+}

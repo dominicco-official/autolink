@@ -1,0 +1,10 @@
+{
+  "tip_radius": 0.1,
+  "tip_length": 0.135,
+  "collar_radius": 0.25,
+  "collar_length": 0.225,
+  "shank_radius": 0.144,
+  "shank_length": 0.35,
+  "chamfer_length": 0.1,
+  "end_radius": 0.104
+}

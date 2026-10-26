@@ -1,0 +1,2 @@
+# Step 7 - Edit one part, the other follows
+Tool: CadQuery. Edit {'inner_radius': 0.135724} on part 2 -> relations update part 1 -> rebuild -> re-solve pose (overlap 0.2%, contact 0%). Output: `propagation.json`, `assembly_after_edit.step`.

@@ -1,0 +1,49 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "rod_radius": 0.6604
+    }
+  },
+  "propagated_to_part1": [],
+  "part1_params_after": {
+    "radius": 0.635
+  },
+  "part2_params_after": {
+    "rod_radius": 0.6604,
+    "rod_length": 12.7,
+    "head_radius": 0.635,
+    "head_length": 1.27,
+    "bore_radius": 0.3175
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        0.0,
+        -1.3103160743213678e-18,
+        -1.0,
+        -12.699999988425228
+      ],
+      [
+        -6.8626735949304085e-18,
+        1.0,
+        -1.3103160743213678e-18,
+        -1.3600214830771505e-16
+      ],
+      [
+        1.0,
+        6.8626735949304085e-18,
+        0.0,
+        4.773065259702046e-17
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.0,
+    "contact_fraction": 0.325
+  }
+}

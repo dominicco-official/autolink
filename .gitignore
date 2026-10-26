@@ -1,0 +1,19 @@
+# dataset (non-redistributable) and caches
+data/
+*.7z
+*.pickle
+# checkpoints outside the vendored upstream
+*.ckpt
+!third_party/JoinABLe/pretrained/**/*.ckpt
+# generated meshes / large derived files
+results/viewer/*.html
+pipeline_demo/**/*.stl
+pipeline_demo/**/*_mesh.json
+pipeline_demo/**/*.step
+recon/*/attempts/
+# python / editor
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+.playwright-mcp/

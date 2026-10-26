@@ -1,0 +1,116 @@
+BODY 29947_0f21f39e_0019_2
+faces=20 edges=45 volume=20.592865 area=76.958545
+bbox min=(0.000000, 21.000000, 77.900000) max=(1.300000, 26.700000, 86.199940)
+
+face  0 Cone      area=0.444641 centroid=(0.650000, 22.100060, 77.947121) normal=(-0.707, 0.000, -0.707) radius=0.550000 axis=(0.000, 0.000, -1.000) origin=(0.650000, 22.100060, 77.950000)
+face  1 Cylinder  area=18.618967 centroid=(0.650000, 22.100060, 80.495838) normal=(-0.000, 1.000, -0.000) radius=0.591675 axis=(0.000, 0.000, -1.000) origin=(0.650000, 22.100060, 83.000000)
+face  2 Plane     area=0.785398 centroid=(0.650000, 22.100060, 77.900000) normal=(0.000, 0.000, -1.000)
+face  3 Plane     area=1.099070 centroid=(0.650000, 24.500239, 85.100740) normal=(0.000, -1.000, 0.000) (reversed: material on the other side)
+face  4 Plane     area=3.814832 centroid=(0.900000, 25.484191, 85.100609) normal=(1.000, 0.000, 0.000) (reversed: material on the other side)
+face  5 Plane     area=3.814832 centroid=(0.400000, 25.484191, 85.100609) normal=(-1.000, 0.000, 0.000) (reversed: material on the other side)
+face  6 Plane     area=1.980262 centroid=(0.650000, 24.568429, 84.001720) normal=(0.000, 0.001, -1.000)
+face  7 Cylinder  area=1.343026 centroid=(1.100000, 26.319848, 85.116743) normal=(0.000, 1.000, 0.002) radius=1.100000 axis=(1.000, 0.000, 0.000) origin=(0.000000, 25.600000, 85.100000)
+face  8 Cylinder  area=1.005310 centroid=(0.200000, 25.600000, 85.100000) normal=(0.000, -1.000, 0.000) radius=0.400000 axis=(1.000, 0.000, 0.000) origin=(0.000000, 25.600000, 85.100000) (reversed: material on the other side)
+face  9 Cylinder  area=1.020539 centroid=(0.650000, 23.381541, 83.819305) normal=(0.000, 0.707, -0.707) radius=0.500000 axis=(1.000, 0.000, -0.000) origin=(0.000000, 23.700000, 83.501080) (reversed: material on the other side)
+face 10 Cylinder  area=2.246316 centroid=(0.650000, 21.399742, 85.800236) normal=(0.000, -0.707, 0.707) radius=1.100000 axis=(1.000, 0.000, 0.000) origin=(0.000000, 22.100000, 85.099940)
+face 11 Plane     area=13.004679 centroid=(0.000000, 23.499487, 84.807567) normal=(1.000, 0.000, 0.000) (reversed: material on the other side)
+face 12 Plane     area=4.018880 centroid=(0.650000, 23.694078, 86.199854) normal=(-0.000, 0.000, 1.000)
+face 13 Cylinder  area=1.005310 centroid=(1.100000, 25.600000, 85.100000) normal=(0.000, -1.000, 0.000) radius=0.400000 axis=(1.000, 0.000, 0.000) origin=(0.000000, 25.600000, 85.100000) (reversed: material on the other side)
+face 14 Cylinder  area=3.267256 centroid=(0.650000, 22.100000, 85.100000) normal=(0.000, -1.000, 0.000) radius=0.400000 axis=(1.000, 0.000, 0.000) origin=(0.000000, 22.100000, 85.100000) (reversed: material on the other side)
+face 15 Cylinder  area=1.343026 centroid=(0.200000, 26.319848, 85.116743) normal=(0.000, 1.000, 0.002) radius=1.100000 axis=(1.000, 0.000, 0.000) origin=(0.000000, 25.600000, 85.100000)
+face 16 Plane     area=0.651404 centroid=(0.650000, 23.200000, 83.250540) normal=(0.000, 1.000, 0.000)
+face 17 Plane     area=1.760193 centroid=(0.650000, 22.099963, 83.000000) normal=(0.000, 0.000, -1.000)
+face 18 Plane     area=2.729922 centroid=(0.650000, 21.000000, 84.049970) normal=(0.000, -1.000, 0.000)
+face 19 Plane     area=13.004679 centroid=(1.300000, 23.499487, 84.807567) normal=(1.000, 0.000, 0.000)
+edge 20 Circle3D  length=3.717604 Convex radius=0.591675 center=(0.650000, 22.100060, 77.991675)
+edge 21 Circle3D  length=3.141593 Convex radius=0.500000 center=(0.650000, 22.100060, 77.900000)
+edge 22 Circle3D  length=3.717604 Concave radius=0.591675 center=(0.650000, 22.100060, 83.000000)
+edge 23 Line3D    length=0.500000 Convex
+edge 24 Line3D    length=2.198140 Concave
+edge 25 Line3D    length=0.500000 Convex
+edge 26 Line3D    length=2.198140 Concave
+edge 27 Line3D    length=1.174438 Convex
+edge 28 Line3D    length=1.123212 Convex
+edge 29 Arc3D     length=3.357565 Convex radius=1.100000 center=(0.900000, 25.600000, 85.100000)
+edge 30 Circle3D  length=2.513274 Convex radius=0.400000 center=(0.900000, 25.600000, 85.100000)
+edge 31 Line3D    length=1.174438 Convex
+edge 32 Arc3D     length=3.357565 Convex radius=1.100000 center=(0.400000, 25.600000, 85.100000)
+edge 33 Line3D    length=1.123212 Convex
+edge 34 Circle3D  length=2.513274 Convex radius=0.400000 center=(0.400000, 25.600000, 85.100000)
+edge 35 Line3D    length=0.400000 Convex
+edge 36 Line3D    length=1.974985 Convex
+edge 37 Line3D    length=1.300000 Smooth
+edge 38 Line3D    length=1.974985 Convex
+edge 39 Line3D    length=0.400000 Convex
+edge 40 Line3D    length=0.400000 Convex
+edge 41 Arc3D     length=3.357565 Convex radius=1.100000 center=(1.300000, 25.600000, 85.100000)
+edge 42 Circle3D  length=2.513274 Convex radius=0.400000 center=(0.000000, 25.600000, 85.100000)
+edge 43 Arc3D     length=0.785030 Convex radius=0.500000 center=(0.000000, 23.700000, 83.501080)
+edge 44 Arc3D     length=0.785030 Convex radius=0.500000 center=(1.300000, 23.700000, 83.501080)
+edge 45 Line3D    length=1.300000 Smooth
+edge 46 Arc3D     length=1.727936 Convex radius=1.100000 center=(1.300000, 22.100000, 85.099940)
+edge 47 Line3D    length=1.300000 Smooth
+edge 48 Arc3D     length=1.727936 Convex radius=1.100000 center=(0.000000, 22.100000, 85.099940)
+edge 49 Line3D    length=1.300000 Smooth
+edge 50 Line3D    length=3.523451 Convex
+edge 51 Arc3D     length=3.357565 Convex radius=1.100000 center=(0.000000, 25.600000, 85.100000)
+edge 52 Line3D    length=0.501080 Convex
+edge 53 Line3D    length=2.200000 Convex
+edge 54 Line3D    length=2.099940 Convex
+edge 55 Circle3D  length=2.513274 Convex radius=0.400000 center=(0.000000, 22.100000, 85.100000)
+edge 56 Line3D    length=0.400000 Convex
+edge 57 Line3D    length=3.523451 Convex
+edge 58 Circle3D  length=2.513274 Convex radius=0.400000 center=(1.300000, 25.600000, 85.100000)
+edge 59 Circle3D  length=2.513274 Convex radius=0.400000 center=(1.300000, 22.100000, 85.100000)
+edge 60 Line3D    length=0.501080 Convex
+edge 61 Line3D    length=1.300000 Convex
+edge 62 Line3D    length=2.200000 Convex
+edge 63 Line3D    length=1.300000 Convex
+edge 64 Line3D    length=2.099940 Convex
+
+edge -> faces it borders:
+  edge 20: faces [0, 1]
+  edge 21: faces [0, 2]
+  edge 22: faces [1, 17]
+  edge 23: faces [3, 6]
+  edge 24: faces [3, 5]
+  edge 25: faces [3, 12]
+  edge 26: faces [3, 4]
+  edge 27: faces [4, 6]
+  edge 28: faces [4, 12]
+  edge 29: faces [4, 7]
+  edge 30: faces [4, 13]
+  edge 31: faces [5, 6]
+  edge 32: faces [5, 15]
+  edge 33: faces [5, 12]
+  edge 34: faces [5, 8]
+  edge 35: faces [6, 7]
+  edge 36: faces [6, 19]
+  edge 37: faces [6, 9]
+  edge 38: faces [6, 11]
+  edge 39: faces [6, 15]
+  edge 40: faces [7, 12]
+  edge 41: faces [7, 19]
+  edge 42: faces [8, 11]
+  edge 43: faces [9, 11]
+  edge 44: faces [9, 19]
+  edge 45: faces [9, 16]
+  edge 46: faces [10, 19]
+  edge 47: faces [10, 12]
+  edge 48: faces [10, 11]
+  edge 49: faces [10, 18]
+  edge 50: faces [11, 12]
+  edge 51: faces [11, 15]
+  edge 52: faces [11, 16]
+  edge 53: faces [11, 17]
+  edge 54: faces [11, 18]
+  edge 55: faces [11, 14]
+  edge 56: faces [12, 15]
+  edge 57: faces [12, 19]
+  edge 58: faces [13, 19]
+  edge 59: faces [14, 19]
+  edge 60: faces [16, 19]
+  edge 61: faces [16, 17]
+  edge 62: faces [17, 19]
+  edge 63: faces [17, 18]
+  edge 64: faces [18, 19]

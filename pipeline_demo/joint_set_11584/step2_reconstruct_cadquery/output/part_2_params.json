@@ -1,0 +1,7 @@
+{
+  "radius": 0.25,
+  "length": 3.5,
+  "chamfer": 0.05,
+  "flat_y": 0.2,
+  "flat_length": 0.8
+}

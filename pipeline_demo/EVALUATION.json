@@ -1,0 +1,806 @@
+{
+  "model_for_step2": "Claude (Fable 5.1) in the Kiro chat session, acting as the step-2 LLM; verifier = pipeline/verify_recon.py",
+  "verifier_fixes": [
+    "centroid tolerance now 0.1% of bbox diagonal (min 0.002 cm)",
+    "trimmed cylinder faces via BRepAdaptor_Surface",
+    "surface-distance sampling chunked (memory)",
+    "tessellation deflection scales with part size",
+    "CONE<->CYLINDER compatible when taper ~0"
+  ],
+  "easy_set": {
+    "n_joint_sets": 10,
+    "step1_top1_hit": 10,
+    "step1_top10_hit": 10,
+    "step1_mean_gt_pairs_fraction": 1.0,
+    "step2_parts_attempted": 20,
+    "step2_parts_not_attempted": 0,
+    "step3_parts_pass": 20,
+    "step2_parts_pass_first_try": 20,
+    "step5_joint_sets_placed": 10,
+    "step5_axis_correct": 10,
+    "step5_axial_matches_designer": 4,
+    "step6_relations_total": 9,
+    "step7_edits_zero_overlap": 10,
+    "step7_edits_run": 10
+  },
+  "hard_set": {
+    "n_joint_sets": 10,
+    "step1_top1_hit": 8,
+    "step1_top10_hit": 10,
+    "step1_mean_gt_pairs_fraction": 0.067,
+    "step2_parts_attempted": 18,
+    "step2_parts_not_attempted": 2,
+    "step3_parts_pass": 17,
+    "step2_parts_pass_first_try": 12,
+    "step5_joint_sets_placed": 8,
+    "step5_axis_correct": 8,
+    "step5_axial_matches_designer": 0,
+    "step6_relations_total": 9,
+    "step7_edits_zero_overlap": 5,
+    "step7_edits_run": 8
+  },
+  "per_joint_set": [
+    {
+      "joint_set": "joint_set_01324",
+      "set": "easy",
+      "faces": [
+        4,
+        7
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.06,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.3,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.inner_radius = part2.shaft_radius + 0.003650"
+      ],
+      "step7_edit": {
+        "shaft_radius": 0.190255
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.015
+    },
+    {
+      "joint_set": "joint_set_03531",
+      "set": "hard",
+      "faces": [
+        6,
+        15
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 0.002,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "flush_mate",
+      "step4_edge_promotion": false,
+      "step5_candidates": 1,
+      "step5_chosen_contact": 0.884,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.2,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [],
+      "step7_edit": {
+        "length": 1.3
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.88
+    },
+    {
+      "joint_set": "joint_set_03894",
+      "set": "easy",
+      "faces": [
+        4,
+        4
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.343,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 2.0,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.inner_radius = part2.outer_radius + 0.000000"
+      ],
+      "step7_edit": {
+        "outer_radius": 1.95
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.5
+    },
+    {
+      "joint_set": "joint_set_04039",
+      "set": "easy",
+      "faces": [
+        6,
+        7
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane",
+        "torus"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 4,
+      "step5_chosen_contact": 0.42,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.004,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.bore_radius = part2.neck_radius + 0.000635",
+        "part1.hole_radius = part2.bore_radius"
+      ],
+      "step7_edit": {
+        "bore_radius": 0.516763,
+        "neck_radius": 0.927862
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.427
+    },
+    {
+      "joint_set": "joint_set_04827",
+      "set": "hard",
+      "faces": [
+        15,
+        19
+      ],
+      "surface_types": [
+        "cone",
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 0.021,
+      "step2_attempts": {
+        "part_1": 2,
+        "part_2": 1
+      },
+      "step2_notes": "part 1: first script put the r=0.05 fillets along the axis; they are on the end-face edges",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.289,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.3,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.bore_radius = part2.shaft_radius + -0.000825"
+      ],
+      "step7_edit": {
+        "shaft_radius": 0.222073
+      },
+      "step7_overlap_after_edit": 0.246,
+      "step7_contact_after_edit": 0.037
+    },
+    {
+      "joint_set": "joint_set_07243",
+      "set": "easy",
+      "faces": [
+        4,
+        3
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": true,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.019,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.15,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.inner_radius = part2.radius + -0.015525"
+      ],
+      "step7_edit": {
+        "radius": 0.125677
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.023
+    },
+    {
+      "joint_set": "joint_set_08045",
+      "set": "easy",
+      "faces": [
+        2,
+        7
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane",
+        "sphere"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "flush_mate",
+      "step4_edge_promotion": false,
+      "step5_candidates": 1,
+      "step5_chosen_contact": 0.214,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 13.97,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [],
+      "step7_edit": {
+        "rod_radius": 0.6604
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.325
+    },
+    {
+      "joint_set": "joint_set_08709",
+      "set": "hard",
+      "faces": [
+        6,
+        20
+      ],
+      "surface_types": [
+        "cone",
+        "cylinder",
+        "plane",
+        "torus"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 0.092,
+      "step2_attempts": {
+        "part_1": 2,
+        "part_2": "FAIL after 3"
+      },
+      "step2_notes": "part 1: revolved about the wrong axis once. part 2 (20-face slotted lug bracket): 17/20 faces match after 3 attempts; the round end is an off-tangent 174.9-degree arc and its exact start angle was not recovered",
+      "step3_pass": [
+        true,
+        false
+      ]
+    },
+    {
+      "joint_set": "joint_set_09176",
+      "set": "hard",
+      "faces": [
+        13,
+        6
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane",
+        "torus"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 0.091,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 16,
+      "step5_chosen_contact": 0.64,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 2.995,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.rod_radius = part2.inner_radius + 0.000000"
+      ],
+      "step7_edit": {
+        "inner_radius": 0.135724
+      },
+      "step7_overlap_after_edit": 0.002,
+      "step7_contact_after_edit": 0.002
+    },
+    {
+      "joint_set": "joint_set_10371",
+      "set": "easy",
+      "faces": [
+        8,
+        3
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.023,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 21.5,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.hole_radius = part2.radius + 0.000000"
+      ],
+      "step7_edit": {
+        "radius": 3.25
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.027
+    },
+    {
+      "joint_set": "joint_set_10420",
+      "set": "easy",
+      "faces": [
+        4,
+        4
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.038,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.1,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.hole_radius = part2.hole_radius + 0.000000"
+      ],
+      "step7_edit": {
+        "hole_radius": 0.26
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.044
+    },
+    {
+      "joint_set": "joint_set_11051",
+      "set": "easy",
+      "faces": [
+        3,
+        3
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "flush_mate",
+      "step4_edge_promotion": false,
+      "step5_candidates": 1,
+      "step5_chosen_contact": 0.287,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.0,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [],
+      "step7_edit": {
+        "radius": 3.25
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.297
+    },
+    {
+      "joint_set": "joint_set_11584",
+      "set": "hard",
+      "faces": [
+        12,
+        9
+      ],
+      "surface_types": [
+        "cone",
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 0.122,
+      "step2_attempts": {
+        "part_1": 2,
+        "part_2": 2
+      },
+      "step2_notes": "part 1: cross-drill went past the hole axis (volume 0.12% off); part 2: flats split the chamfer cones at the surface seam, fixed by rotating the seam into the cut",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.005,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 2.05,
+      "step5_radial_err_cm": 0.012,
+      "step5_underdetermined": true,
+      "step6_relations": [
+        "part1.hole_radius = part2.radius + 0.000000"
+      ],
+      "step7_edit": {
+        "radius": 0.325
+      },
+      "step7_overlap_after_edit": 0.018,
+      "step7_contact_after_edit": 0.004
+    },
+    {
+      "joint_set": "joint_set_12396",
+      "set": "hard",
+      "faces": [
+        7,
+        15
+      ],
+      "surface_types": [
+        "cone",
+        "cylinder",
+        "plane",
+        "torus"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 0.062,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "part 1 needed a verifier change: a cone with ~zero taper is classified CYLINDER by OCC",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": true,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.085,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 1.5,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.bore_radius = part2.tab_hole_r + 0.000000"
+      ],
+      "step7_edit": {
+        "tab_hole_r": 0.104
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.071
+    },
+    {
+      "joint_set": "joint_set_13082",
+      "set": "easy",
+      "faces": [
+        14,
+        9
+      ],
+      "surface_types": [
+        "cone",
+        "cylinder",
+        "plane",
+        "torus"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 4,
+      "step5_chosen_contact": 0.051,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.0,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.bore_radius = part2.shaft_radius + 0.000000"
+      ],
+      "step7_edit": {
+        "shaft_radius": 3.25
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.054
+    },
+    {
+      "joint_set": "joint_set_13342",
+      "set": "hard",
+      "faces": [
+        8,
+        14
+      ],
+      "surface_types": [
+        "cone",
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 8,
+      "step1_gt_pairs_fraction": 0.079,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.213,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.145,
+      "step5_radial_err_cm": 3.8616,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.tip_radius = part2.h8_r + -0.000000"
+      ],
+      "step7_edit": {
+        "h8_r": 0.13
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.207
+    },
+    {
+      "joint_set": "joint_set_14090",
+      "set": "hard",
+      "faces": [
+        16,
+        19
+      ],
+      "surface_types": [
+        "cone",
+        "cylinder",
+        "plane",
+        "torus"
+      ],
+      "step1_first_hit_rank": 3,
+      "step1_gt_pairs_fraction": 0.078,
+      "step2_attempts": {
+        "part_1": "not attempted",
+        "part_2": "not attempted"
+      },
+      "step2_notes": "16-face grooved ring (tori/cones split by planes) + 19-face mate; skipped for effort budget",
+      "step3_pass": null
+    },
+    {
+      "joint_set": "joint_set_14572",
+      "set": "hard",
+      "faces": [
+        11,
+        14
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 0.031,
+      "step2_attempts": {
+        "part_1": 3,
+        "part_2": 1
+      },
+      "step2_notes": "part 1: hub cylinder and bottom plane were split by the union; fixed by closing the arm outline with a chord inside the hub",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 8,
+      "step5_chosen_contact": 0.059,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.476,
+      "step5_radial_err_cm": 0.0003,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.bottom_pin_radius = part2.end_hole_radius + 0.000000",
+        "part1.end_radius = part2.end_radius"
+      ],
+      "step7_edit": {
+        "end_hole_radius": 0.10322,
+        "end_radius": 0.257985
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.075
+    },
+    {
+      "joint_set": "joint_set_16475",
+      "set": "easy",
+      "faces": [
+        6,
+        5
+      ],
+      "surface_types": [
+        "cone",
+        "cylinder",
+        "plane",
+        "torus"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 1.0,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "flush_mate",
+      "step4_edge_promotion": false,
+      "step5_candidates": 1,
+      "step5_chosen_contact": 0.417,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.0,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.disc_radius = part2.radius"
+      ],
+      "step7_edit": {
+        "radius": 4.095
+      },
+      "step7_overlap_after_edit": 0.0,
+      "step7_contact_after_edit": 0.439
+    },
+    {
+      "joint_set": "joint_set_17464",
+      "set": "hard",
+      "faces": [
+        6,
+        16
+      ],
+      "surface_types": [
+        "cylinder",
+        "plane",
+        "torus"
+      ],
+      "step1_first_hit_rank": 1,
+      "step1_gt_pairs_fraction": 0.091,
+      "step2_attempts": {
+        "part_1": 1,
+        "part_2": 1
+      },
+      "step2_notes": "",
+      "step3_pass": [
+        true,
+        true
+      ],
+      "step4_rule": "concentric",
+      "step4_edge_promotion": false,
+      "step5_candidates": 4,
+      "step5_chosen_contact": 0.167,
+      "step5_axis_angle_err_deg": 0.0,
+      "step5_axial_offset_vs_designer_cm": 0.925,
+      "step5_radial_err_cm": 0.0,
+      "step5_underdetermined": false,
+      "step6_relations": [
+        "part1.head_radius = part2.cbore_radius + -0.000000",
+        "part1.bore_radius = part2.cross_radius"
+      ],
+      "step7_edit": {
+        "cbore_radius": 0.39,
+        "cross_radius": 0.26
+      },
+      "step7_overlap_after_edit": 0.518,
+      "step7_contact_after_edit": 0.012
+    }
+  ]
+}

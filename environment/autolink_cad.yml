@@ -1,0 +1,12 @@
+name: autolink-cad
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - cadquery==2.4.0
+      - "numpy<2"
+      - trimesh==4.4.9
+      - rtree==1.4.1
+      - scipy
+      - matplotlib

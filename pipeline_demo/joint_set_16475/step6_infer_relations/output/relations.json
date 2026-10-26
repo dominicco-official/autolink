@@ -1,0 +1,35 @@
+{
+  "joint_set": "joint_set_16475",
+  "driver_part": 2,
+  "dependent_part": 1,
+  "relations": [
+    {
+      "kind": "coaxial_equal_radius",
+      "source": "scan of assembled model: coaxial cylinders with equal radius",
+      "faces": {
+        "part1": 3,
+        "part2": 1
+      },
+      "equation": "part1.disc_radius = part2.radius",
+      "dependent": {
+        "part": 1,
+        "param": "disc_radius"
+      },
+      "driver": {
+        "part": 2,
+        "param": "radius"
+      },
+      "constant": 0.0
+    },
+    {
+      "kind": "pose_constraint",
+      "source": "step 5",
+      "faces": {
+        "part1": 4,
+        "part2": 2,
+        "option": null
+      },
+      "equation": "flush_mate (re-solved after every edit)"
+    }
+  ]
+}

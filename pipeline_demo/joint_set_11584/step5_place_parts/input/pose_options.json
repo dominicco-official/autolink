@@ -1,0 +1,55 @@
+{
+  "how": "planar faces adjacent to each mating cylinder with normal along the axis (widened to all perpendicular planes where the cylinder has no adjacent shoulder); every pairing, with normals opposed (faces touch) or parallel (faces flush, nested), is a candidate stop position",
+  "part1_shoulders": [
+    3,
+    5
+  ],
+  "part2_shoulders": [
+    0,
+    7
+  ],
+  "options": [
+    [
+      3,
+      0,
+      "opposed"
+    ],
+    [
+      3,
+      0,
+      "parallel"
+    ],
+    [
+      3,
+      7,
+      "opposed"
+    ],
+    [
+      3,
+      7,
+      "parallel"
+    ],
+    [
+      5,
+      0,
+      "opposed"
+    ],
+    [
+      5,
+      0,
+      "parallel"
+    ],
+    [
+      5,
+      7,
+      "opposed"
+    ],
+    [
+      5,
+      7,
+      "parallel"
+    ]
+  ],
+  "underdetermined": true,
+  "note": "no candidate makes real contact: the slide along the axis is not fixed by geometry (user offset or VLM needed)"
+}

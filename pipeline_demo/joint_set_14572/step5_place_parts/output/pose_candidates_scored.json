@@ -1,0 +1,338 @@
+{
+  "rule": "discard overlap > 1%, then pick max contact",
+  "candidates": [
+    {
+      "option": [
+        1,
+        5,
+        "opposed"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 0 PointOnLine axis of part2 cylinder face 8",
+        "part1 plane 1 Axis part2 plane 5 (normals opposed)",
+        "part1 plane 1 PointInPlane part2 plane 5"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.0004,
+      "part1_transform_4x4": [
+        [
+          -0.745076891644979,
+          -7.578985504469073e-10,
+          0.6669785795186047,
+          -7.933468563195391
+        ],
+        [
+          7.390094660044209e-10,
+          -0.9999999999999998,
+          -3.107741102716112e-10,
+          -0.15870000376110124
+        ],
+        [
+          0.6669785795186047,
+          2.6135287580152526e-10,
+          0.7450768916449793,
+          -0.8669060763284999
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        1,
+        5,
+        "parallel"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 0 PointOnLine axis of part2 cylinder face 8",
+        "part1 plane 1 Axis part2 plane 5 (normals parallel)",
+        "part1 plane 1 PointInPlane part2 plane 5"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.0178,
+      "part1_transform_4x4": [
+        [
+          0.9155904176798735,
+          1.929840055428707e-12,
+          0.4021121573053903,
+          -10.091922558762898
+        ],
+        [
+          -1.980392723736866e-12,
+          1.0,
+          -2.899973358520602e-13,
+          0.47629999989566474
+        ],
+        [
+          -0.4021121573053903,
+          -5.308212085948906e-13,
+          0.9155904176798735,
+          0.5226456778277244
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        1,
+        6,
+        "opposed"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 0 PointOnLine axis of part2 cylinder face 8",
+        "part1 plane 1 Axis part2 plane 6 (normals opposed)",
+        "part1 plane 1 PointInPlane part2 plane 6"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.0002,
+      "part1_transform_4x4": [
+        [
+          0.9154985206874897,
+          1.4869458950973834e-12,
+          0.4023213375139555,
+          -10.09180311555589
+        ],
+        [
+          -1.4966402805689886e-12,
+          1.0,
+          -2.902504076883928e-13,
+          0.634999999852047
+        ],
+        [
+          -0.4023213375139555,
+          -3.3640650058811257e-13,
+          0.9154985206874897,
+          0.5229175600129142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        1,
+        6,
+        "parallel"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 0 PointOnLine axis of part2 cylinder face 8",
+        "part1 plane 1 Axis part2 plane 6 (normals parallel)",
+        "part1 plane 1 PointInPlane part2 plane 6"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.02,
+      "part1_transform_4x4": [
+        [
+          -0.7553957133223737,
+          -8.159880897766816e-10,
+          0.6552688885443761,
+          -7.920056664258791
+        ],
+        [
+          7.928330310894411e-10,
+          -1.0,
+          -3.3129211611674425e-10,
+          -4.040151645956451e-09
+        ],
+        [
+          0.6552688885443761,
+          2.692621747111603e-10,
+          0.7553957133223738,
+          -0.8516863937863046
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        10,
+        5,
+        "opposed"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 0 PointOnLine axis of part2 cylinder face 8",
+        "part1 plane 10 Axis part2 plane 5 (normals opposed)",
+        "part1 plane 10 PointInPlane part2 plane 5"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.0588,
+      "part1_transform_4x4": [
+        [
+          -0.7180163438473506,
+          -5.240733720032484e-09,
+          0.6960262422984375,
+          -7.968640526265875
+        ],
+        [
+          5.113188884303795e-09,
+          -1.0,
+          -2.2547720711525273e-09,
+          0.15879999004489742
+        ],
+        [
+          0.6960262422984375,
+          1.939950446566055e-09,
+          0.7180163438473506,
+          -0.9046608094859784
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        10,
+        5,
+        "parallel"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 0 PointOnLine axis of part2 cylinder face 8",
+        "part1 plane 10 Axis part2 plane 5 (normals parallel)",
+        "part1 plane 10 PointInPlane part2 plane 5"
+      ],
+      "overlap_fraction": 0.025,
+      "contact_fraction": 0.0286,
+      "part1_transform_4x4": [
+        [
+          0.9158357065105147,
+          2.891921245324364e-12,
+          0.4015531828791629,
+          -10.092241373163958
+        ],
+        [
+          -3.030821599079364e-12,
+          1.0,
+          -2.893430055543853e-13,
+          0.15879999997110286
+        ],
+        [
+          -0.4015531828791629,
+          -9.520454039334566e-13,
+          0.9158357065105147,
+          0.5219191502585243
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        10,
+        6,
+        "opposed"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 0 PointOnLine axis of part2 cylinder face 8",
+        "part1 plane 10 Axis part2 plane 6 (normals opposed)",
+        "part1 plane 10 PointInPlane part2 plane 6"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.042,
+      "part1_transform_4x4": [
+        [
+          0.9157933036210125,
+          2.7045921675789313e-12,
+          0.40164987867907037,
+          -10.092186259966255
+        ],
+        [
+          -2.826327671296284e-12,
+          1.0,
+          -2.894566101933761e-13,
+          0.31749999993062245
+        ],
+        [
+          -0.40164987867907037,
+          -8.701117409795203e-13,
+          0.9157933036210125,
+          0.522044830721109
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        10,
+        6,
+        "parallel"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 0 PointOnLine axis of part2 cylinder face 8",
+        "part1 plane 10 Axis part2 plane 6 (normals parallel)",
+        "part1 plane 10 PointInPlane part2 plane 6"
+      ],
+      "overlap_fraction": 0.022,
+      "contact_fraction": 0.0534,
+      "part1_transform_4x4": [
+        [
+          -0.7238755056773016,
+          -5.220227422830787e-09,
+          0.6899306141058177,
+          -7.961025074843056
+        ],
+        [
+          5.088258752241481e-09,
+          -1.0,
+          -2.2277045171085827e-09,
+          0.3174999900890785
+        ],
+        [
+          0.6899306141058177,
+          1.897964751841683e-09,
+          0.7238755056773016,
+          -0.8967380105335332
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "chosen_option": [
+    10,
+    5,
+    "opposed"
+  ]
+}

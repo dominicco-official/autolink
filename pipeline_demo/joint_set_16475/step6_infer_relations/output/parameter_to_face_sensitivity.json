@@ -1,0 +1,76 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "3": {
+      "disc_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "disc_thickness": {
+        "d_position/d_param": 0.5
+      },
+      "chamfer": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "4": {
+      "disc_thickness": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "2": {
+      "disc_thickness": {
+        "d_position/d_param": 1.0
+      },
+      "chamfer": {
+        "d_position/d_param": 0.5029
+      }
+    },
+    "0": {
+      "pin_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "pin_length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "1": {
+      "pin_length": {
+        "d_position/d_param": 1.0
+      }
+    }
+  },
+  "part2": {
+    "1": {
+      "radius": {
+        "d_radius/d_param": 1.0
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "radius": {
+        "d_position/d_param": 0.0001
+      },
+      "fillet": {
+        "d_position/d_param": 0.3693
+      }
+    },
+    "0": {
+      "radius": {
+        "d_position/d_param": 0.0001
+      },
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "fillet": {
+        "d_position/d_param": 0.3693
+      }
+    },
+    "2": {
+      "thickness": {
+        "d_position/d_param": 1.0
+      }
+    }
+  }
+}

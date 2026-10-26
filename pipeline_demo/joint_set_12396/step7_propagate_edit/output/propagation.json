@@ -1,0 +1,86 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "tab_hole_r": 0.104
+    }
+  },
+  "propagated_to_part1": [
+    {
+      "relation": "part1.bore_radius = part2.tab_hole_r + 0.000000",
+      "part1_param": "bore_radius",
+      "old": 0.08,
+      "new": 0.10400009313225454
+    }
+  ],
+  "part1_params_after": {
+    "x0": 7.492254,
+    "bore_radius": 0.10400009313225454,
+    "flange_radius": 0.22,
+    "flange_length": 0.08,
+    "flange_end_radius": 0.220019,
+    "shank_radius": 0.12,
+    "chamfer_end_x": 7.63,
+    "shank_end_x": 7.85,
+    "head_arc_radius": 0.2,
+    "head_arc_cx": 8.007442,
+    "head_arc_cr": -0.0034,
+    "x_end": 8.142254,
+    "end_radius": 0.144399
+  },
+  "part2_params_after": {
+    "plate_x0": -12.6625,
+    "plate_t": 0.2,
+    "plate_h": 0.8,
+    "z0": -120.75,
+    "z1": -118.25,
+    "hole_r": 0.1,
+    "hole_y": 0.4,
+    "hole_z1": -120.35,
+    "hole_z2": -118.65,
+    "tab_y0": 0.3,
+    "tab_y1": 0.5,
+    "tab_top_z": -119.05,
+    "nose_x": -13.48,
+    "nose_r": 0.12,
+    "noseA_z": -119.17,
+    "noseA_deg": 83.4,
+    "noseB_z": -119.1423,
+    "noseB_deg": 44.7,
+    "slant_dx": 0.781,
+    "slant_dz": -0.625,
+    "tab_hole_r": 0.104,
+    "tab_hole_x": -13.35,
+    "tab_hole_z": -119.2
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        6.9150241088777875e-12,
+        0.8764675626554275,
+        0.48146091389940926,
+        -17.7323378142481
+      ],
+      [
+        -1.0,
+        5.242251077675064e-12,
+        4.8194781498978045e-12,
+        7.792254000886905
+      ],
+      [
+        1.7001122731841178e-12,
+        -0.48146091389940926,
+        0.8764675626554275,
+        -116.79269543026261
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.0,
+    "contact_fraction": 0.0706
+  }
+}

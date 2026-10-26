@@ -1,0 +1,223 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "11": {
+      "base_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "base_height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "7": {
+      "base_height": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "6": {
+      "base_height": {
+        "d_position/d_param": 0.6257
+      },
+      "shoulder_fillet": {
+        "d_position/d_param": 0.0362
+      },
+      "cone_r_bottom": {
+        "d_position/d_param": 0.0017
+      },
+      "cone_z_bottom": {
+        "d_position/d_param": 0.3756
+      }
+    },
+    "1": {
+      "cone_r_bottom": {
+        "d_position/d_param": 0.191
+      },
+      "cone_z_bottom": {
+        "d_position/d_param": 0.5322
+      },
+      "cone_r_top": {
+        "d_position/d_param": 0.2826
+      },
+      "cone_z_top": {
+        "d_position/d_param": 0.4678
+      }
+    },
+    "0": {
+      "cone_r_top": {
+        "d_position/d_param": 0.0001
+      },
+      "cone_z_top": {
+        "d_position/d_param": 0.4137
+      },
+      "lip_fillet": {
+        "d_position/d_param": 0.0559
+      },
+      "lip_z": {
+        "d_position/d_param": 0.571
+      }
+    },
+    "2": {
+      "lip_z": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "12": {
+      "lip_z": {
+        "d_position/d_param": 0.5
+      },
+      "neck_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "top_z": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "13": {
+      "top_z": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "8": {
+      "top_z": {
+        "d_position/d_param": 0.5
+      },
+      "bore_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "bore_bottom_z": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "9": {
+      "bore_radius": {
+        "d_position/d_param": 0.3938
+      },
+      "bore_bottom_z": {
+        "d_position/d_param": 0.4573
+      },
+      "inner_cone_r_bottom": {
+        "d_position/d_param": 0.2332
+      },
+      "inner_floor_z": {
+        "d_position/d_param": 0.5427
+      }
+    },
+    "4": {
+      "inner_floor_z": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "3": {
+      "inner_floor_z": {
+        "d_position/d_param": 1.0
+      },
+      "recess_fillet": {
+        "d_position/d_param": 0.3671
+      }
+    },
+    "5": {
+      "inner_floor_z": {
+        "d_position/d_param": 0.5
+      },
+      "recess_fillet": {
+        "d_position/d_param": 0.5
+      },
+      "recess_radius": {
+        "d_radius/d_param": 1.0
+      }
+    }
+  },
+  "part2": {
+    "2": {
+      "bore_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "shaft_height": {
+        "d_position/d_param": 0.5
+      },
+      "rim_radius": {
+        "d_position/d_param": 1.0
+      },
+      "boss_fillet": {
+        "d_position/d_param": 0.5
+      },
+      "boss_height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "0": {
+      "shaft_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "shaft_height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "8": {
+      "shaft_height": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "7": {
+      "shaft_height": {
+        "d_position/d_param": 1.0
+      },
+      "rim_radius": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "6": {
+      "shaft_height": {
+        "d_position/d_param": 1.0
+      },
+      "rim_radius": {
+        "d_position/d_param": 2.0
+      }
+    },
+    "5": {
+      "shaft_height": {
+        "d_position/d_param": 1.0
+      },
+      "rim_radius": {
+        "d_position/d_param": 2.0
+      },
+      "boss_fillet": {
+        "d_position/d_param": 0.3318
+      },
+      "boss_radius": {
+        "d_position/d_param": 0.003
+      }
+    },
+    "4": {
+      "shaft_height": {
+        "d_position/d_param": 1.0
+      },
+      "rim_radius": {
+        "d_position/d_param": 2.0
+      },
+      "boss_fillet": {
+        "d_position/d_param": 1.0
+      },
+      "boss_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "boss_height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "shaft_height": {
+        "d_position/d_param": 1.0
+      },
+      "rim_radius": {
+        "d_position/d_param": 2.0
+      },
+      "boss_fillet": {
+        "d_position/d_param": 1.0
+      },
+      "boss_height": {
+        "d_position/d_param": 1.0
+      }
+    }
+  }
+}

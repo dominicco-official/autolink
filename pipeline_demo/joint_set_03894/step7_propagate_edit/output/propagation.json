@@ -1,0 +1,56 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "outer_radius": 1.95
+    }
+  },
+  "propagated_to_part1": [
+    {
+      "relation": "part1.inner_radius = part2.outer_radius + 0.000000",
+      "part1_param": "inner_radius",
+      "old": 1.5,
+      "new": 1.95
+    }
+  ],
+  "part1_params_after": {
+    "inner_radius": 1.95,
+    "outer_radius": 2.0,
+    "length": 2.0
+  },
+  "part2_params_after": {
+    "inner_radius": 0.75,
+    "outer_radius": 1.95,
+    "length": 2.0
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        -1.0,
+        -6.060662268477096e-12,
+        6.176638354557193e-12,
+        4.124573464903541e-09
+      ],
+      [
+        6.176638354557287e-12,
+        -1.554312234475219e-14,
+        1.0,
+        6.093772275362105e-17
+      ],
+      [
+        -6.0606622684770006e-12,
+        1.0,
+        1.554312234475219e-14,
+        6.661338038854648e-16
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.0,
+    "contact_fraction": 0.4996
+  }
+}

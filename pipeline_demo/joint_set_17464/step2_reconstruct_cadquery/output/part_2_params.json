@@ -1,0 +1,18 @@
+{
+  "radius": 1.375,
+  "height": 3.8,
+  "top_fillet": 0.3,
+  "pin_hole_radius": 0.12645,
+  "pin_hole_depth": 0.8,
+  "pin_hole_z": 1.0262,
+  "big_hole_radius": 0.6,
+  "big_hole_depth": 2.7,
+  "big_hole_x": 0.6,
+  "mid_hole_radius": 0.35,
+  "mid_hole_depth": 3.2,
+  "mid_hole_x": -0.7,
+  "cross_y": 2.5,
+  "cbore_radius": 0.3,
+  "cbore_end_x": -0.2,
+  "cross_radius": 0.2
+}

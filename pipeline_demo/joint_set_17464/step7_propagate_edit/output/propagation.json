@@ -1,0 +1,78 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "cbore_radius": 0.39,
+      "cross_radius": 0.26
+    }
+  },
+  "propagated_to_part1": [
+    {
+      "relation": "part1.head_radius = part2.cbore_radius + -0.000000",
+      "part1_param": "head_radius",
+      "old": 0.3,
+      "new": 0.38999999999999985
+    },
+    {
+      "relation": "part1.bore_radius = part2.cross_radius",
+      "part1_param": "bore_radius",
+      "old": 0.2,
+      "new": 0.26
+    }
+  ],
+  "part1_params_after": {
+    "bore_radius": 0.26,
+    "head_radius": 0.38999999999999985,
+    "head_length": 0.8,
+    "shank_radius": 0.24505,
+    "shank_length": 0.5
+  },
+  "part2_params_after": {
+    "radius": 1.375,
+    "height": 3.8,
+    "top_fillet": 0.3,
+    "pin_hole_radius": 0.12645,
+    "pin_hole_depth": 0.8,
+    "pin_hole_z": 1.0262,
+    "big_hole_radius": 0.6,
+    "big_hole_depth": 2.7,
+    "big_hole_x": 0.6,
+    "mid_hole_radius": 0.35,
+    "mid_hole_depth": 3.2,
+    "mid_hole_x": -0.7,
+    "cross_y": 2.5,
+    "cbore_radius": 0.39,
+    "cbore_end_x": -0.2,
+    "cross_radius": 0.26
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        0.927201868894277,
+        -1.6312829418489605e-09,
+        0.37456200330380546,
+        0.0
+      ],
+      [
+        1.6224100721025352e-09,
+        1.0,
+        3.3901273957998633e-10,
+        3.05
+      ],
+      [
+        -0.37456200330380546,
+        2.9335992106946493e-10,
+        0.927201868894277,
+        -2.2694961954952105e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.5182,
+    "contact_fraction": 0.0116
+  }
+}

@@ -1,0 +1,10 @@
+BODY 55717_8ee13ef1_0016_1
+faces=2 edges=1 volume=0.536265 area=3.800306
+bbox min=(-0.635000, -0.635000, 0.000000) max=(0.635000, 0.635000, 0.635000)
+
+face  0 Plane     area=1.266769 centroid=(0.000000, -0.000000, 0.000000) normal=(0.000, 0.000, -1.000)
+face  1 Sphere    area=2.533537 centroid=(-0.000000, 0.000000, 0.317500) normal=(-0.000, -0.000, 1.000) radius=0.635000
+edge  2 Circle3D  length=3.989823 Convex radius=0.635000 center=(0.000000, 0.000000, 0.000000)
+
+edge -> faces it borders:
+  edge 2: faces [0, 1]

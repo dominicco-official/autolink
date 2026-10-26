@@ -1,0 +1,25 @@
+BODY 30297_fd93a92a_0016_1
+faces=7 edges=6 volume=16.466079 area=41.837057
+bbox min=(0.000000, -1.469125, -1.469125) max=(4.279900, 1.469125, 1.469125)
+
+face  0 Cylinder  area=6.343978 centroid=(1.270000, 0.000000, 0.000000) normal=(0.000, 1.000, -0.000) radius=0.397510 axis=(1.000, 0.000, 0.000) origin=(0.000000, 0.000000, 0.000000) (reversed: material on the other side)
+face  1 Plane     area=0.496416 centroid=(2.540000, 0.000000, 0.000000) normal=(-1.000, 0.000, 0.000)
+face  2 Cylinder  area=2.847696 centroid=(0.317500, -0.000000, -0.000000) normal=(0.000, 0.000, 1.000) radius=0.713740 axis=(1.000, 0.000, -0.000) origin=(0.317500, 0.000000, 0.000000)
+face  3 Torus     area=6.366286 centroid=(1.177974, 0.000000, 0.000000) normal=(-0.326, 0.000, -0.945) axis=(1.000, 0.000, -0.000) origin=(0.175874, 0.000000, 0.000000) curvatures=(-1.221916, 0.487237)
+face  4 Torus     area=23.559376 centroid=(2.893973, 0.000000, 0.000000) normal=(0.493, 0.000, -0.870) axis=(1.000, 0.000, -0.000) origin=(2.573088, 0.000000, 0.000000) curvatures=(-0.727733, -0.474812)
+face  5 Plane     area=1.119317 centroid=(4.279900, -0.000000, 0.000000) normal=(1.000, 0.000, -0.000)
+face  6 Plane     area=1.103989 centroid=(0.000000, -0.000000, -0.000000) normal=(-1.000, 0.000, 0.000)
+edge  7 Circle3D  length=2.497629 Concave radius=0.397510 center=(2.540000, 0.000000, 0.000000)
+edge  8 Circle3D  length=2.497629 Convex radius=0.397510 center=(0.000000, 0.000000, 0.000000)
+edge  9 Circle3D  length=4.484561 Convex radius=0.713740 center=(0.000000, 0.000000, 0.000000)
+edge 10 Circle3D  length=4.484561 Concave radius=0.713740 center=(0.635000, 0.000000, 0.000000)
+edge 11 Circle3D  length=7.692378 Convex radius=1.224280 center=(1.587500, 0.000000, 0.000000)
+edge 12 Circle3D  length=3.750433 Convex radius=0.596900 center=(4.279900, 0.000000, 0.000000)
+
+edge -> faces it borders:
+  edge 7: faces [0, 1]
+  edge 8: faces [0, 6]
+  edge 9: faces [2, 6]
+  edge 10: faces [2, 3]
+  edge 11: faces [3, 4]
+  edge 12: faces [4, 5]

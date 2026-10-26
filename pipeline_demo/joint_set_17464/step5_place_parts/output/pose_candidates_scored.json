@@ -1,0 +1,174 @@
+{
+  "rule": "discard overlap > 1%, then pick max contact",
+  "candidates": [
+    {
+      "option": [
+        4,
+        8,
+        "opposed"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 3 PointOnLine axis of part2 cylinder face 9",
+        "part1 plane 4 Axis part2 plane 8 (normals opposed)",
+        "part1 plane 4 PointInPlane part2 plane 8"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.1674,
+      "part1_transform_4x4": [
+        [
+          4.652415119821285e-10,
+          1.0,
+          1.8108064353539177e-10,
+          -0.1999999999999997
+        ],
+        [
+          -0.9977172580794522,
+          4.764078020969009e-10,
+          -0.06752979290964573,
+          2.5000000003794924
+        ],
+        [
+          -0.06752979290964573,
+          -1.4924962654649931e-10,
+          0.9977172580794522,
+          -1.5965995224426585e-11
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        4,
+        8,
+        "parallel"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 3 PointOnLine axis of part2 cylinder face 9",
+        "part1 plane 4 Axis part2 plane 8 (normals parallel)",
+        "part1 plane 4 PointInPlane part2 plane 8"
+      ],
+      "overlap_fraction": 0.2094,
+      "contact_fraction": 0.119,
+      "part1_transform_4x4": [
+        [
+          4.77766937123647e-10,
+          -1.0,
+          -6.682595321831804e-11,
+          -0.1999999999999997
+        ],
+        [
+          0.9999999562419705,
+          4.777866990934854e-10,
+          -0.0002958311295981785,
+          2.5000000003819363
+        ],
+        [
+          0.0002958311295981785,
+          -6.668461187972832e-11,
+          0.9999999562419705,
+          -1.0482431783211443e-11
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        5,
+        8,
+        "opposed"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 3 PointOnLine axis of part2 cylinder face 9",
+        "part1 plane 5 Axis part2 plane 8 (normals opposed)",
+        "part1 plane 5 PointInPlane part2 plane 8"
+      ],
+      "overlap_fraction": 0.1066,
+      "contact_fraction": 0.2234,
+      "part1_transform_4x4": [
+        [
+          3.72808628412713e-09,
+          -1.0000000000000002,
+          -6.233329713392459e-11,
+          -1.0000000179152972
+        ],
+        [
+          0.9999999544208652,
+          3.728104935873944e-09,
+          -0.00030192427485618877,
+          2.5000000153126276
+        ],
+        [
+          0.000301924274856189,
+          -6.12076945388524e-11,
+          0.9999999544208651,
+          -3.056939900837648e-11
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        5,
+        8,
+        "parallel"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 3 PointOnLine axis of part2 cylinder face 9",
+        "part1 plane 5 Axis part2 plane 8 (normals parallel)",
+        "part1 plane 5 PointInPlane part2 plane 8"
+      ],
+      "overlap_fraction": 0.1832,
+      "contact_fraction": 0.0992,
+      "part1_transform_4x4": [
+        [
+          2.4085982097687975e-09,
+          1.0000000000000002,
+          3.0819987534291826e-10,
+          0.600000017969266
+        ],
+        [
+          -0.9977259769111685,
+          2.423893974423663e-09,
+          -0.06740085308551191,
+          2.5000000093215657
+        ],
+        [
+          -0.06740085308551191,
+          -1.4515744856113955e-10,
+          0.9977259769111684,
+          -3.09890624517825e-11
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "chosen_option": [
+    4,
+    8,
+    "opposed"
+  ]
+}

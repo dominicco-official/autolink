@@ -1,0 +1,33 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "2": {
+      "radius": {
+        "d_radius/d_param": 1.0
+      },
+      "length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "1": {
+      "length": {
+        "d_position/d_param": 1.0
+      }
+    }
+  },
+  "part2": {
+    "1": {
+      "radius": {
+        "d_radius/d_param": 1.0
+      },
+      "length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "0": {
+      "length": {
+        "d_position/d_param": 1.0
+      }
+    }
+  }
+}

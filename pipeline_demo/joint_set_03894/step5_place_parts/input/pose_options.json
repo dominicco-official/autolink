@@ -1,0 +1,55 @@
+{
+  "how": "planar faces adjacent to each mating cylinder with normal along the axis; every pairing, with normals opposed (faces touch) or parallel (faces flush, nested), is a candidate stop position",
+  "part1_shoulders": [
+    0,
+    3
+  ],
+  "part2_shoulders": [
+    0,
+    3
+  ],
+  "options": [
+    [
+      0,
+      0,
+      "opposed"
+    ],
+    [
+      0,
+      0,
+      "parallel"
+    ],
+    [
+      0,
+      3,
+      "opposed"
+    ],
+    [
+      0,
+      3,
+      "parallel"
+    ],
+    [
+      3,
+      0,
+      "opposed"
+    ],
+    [
+      3,
+      0,
+      "parallel"
+    ],
+    [
+      3,
+      3,
+      "opposed"
+    ],
+    [
+      3,
+      3,
+      "parallel"
+    ]
+  ],
+  "underdetermined": false,
+  "note": ""
+}

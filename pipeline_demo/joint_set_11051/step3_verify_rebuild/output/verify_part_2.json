@@ -1,0 +1,87 @@
+{
+  "body": "41653_71b50655_0004_2",
+  "PASS": true,
+  "checks": [
+    {
+      "check": "face count equal",
+      "cadquery": 3,
+      "dataset": 3,
+      "pass": true
+    },
+    {
+      "check": "every dataset face matched (type, position, radius)",
+      "matched": 3,
+      "of": 3,
+      "pass": true
+    },
+    {
+      "check": "volume within 0.1%",
+      "cadquery": 68.72233929727673,
+      "dataset": 68.7223392972767,
+      "pass": true
+    },
+    {
+      "check": "bounding box within 1e-4 cm",
+      "max_abs_err": 0.0,
+      "pass": true
+    },
+    {
+      "check": "mean surface distance to dataset mesh < max(0.01 cm, 0.5% of bbox diagonal)",
+      "chamfer_cm": 0.0058450440642196545,
+      "tolerance_cm": 0.03944933459514875,
+      "pass": true
+    }
+  ],
+  "face_matching": [
+    {
+      "dataset_face": 0,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 1,
+      "centroid_distance": 7.004023707281392e-16,
+      "area_dataset": 19.634954084936208,
+      "area_cadquery": 19.634954084936204,
+      "area_rel_err": 1.809382218788134e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 1,
+      "type": "CYLINDER",
+      "radius": 2.5,
+      "matched_cq_face": 0,
+      "centroid_distance": 1.536403392801612e-15,
+      "area_dataset": 54.97787143782138,
+      "area_cadquery": 54.977871437821385,
+      "area_rel_err": 1.292415870562953e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 2,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 2,
+      "centroid_distance": 5.416163352561893e-16,
+      "area_dataset": 19.634954084936208,
+      "area_cadquery": 19.634954084936204,
+      "area_rel_err": 1.809382218788134e-16,
+      "MATCH": true
+    }
+  ],
+  "side_table_dataset_face_to_cadquery_face": {
+    "0": 1,
+    "1": 0,
+    "2": 2
+  },
+  "face_adjacency_from_dataset": {
+    "0": [
+      1
+    ],
+    "1": [
+      0,
+      2
+    ],
+    "2": [
+      1
+    ]
+  }
+}

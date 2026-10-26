@@ -1,0 +1,174 @@
+{
+  "rule": "discard overlap > 1%, then pick max contact",
+  "candidates": [
+    {
+      "option": [
+        2,
+        6,
+        "opposed"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 1 PointOnLine axis of part2 cylinder face 2",
+        "part1 plane 2 Axis part2 plane 6 (normals opposed)",
+        "part1 plane 2 PointInPlane part2 plane 6"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.4204,
+      "part1_transform_4x4": [
+        [
+          1.8938461909812077e-10,
+          1.0,
+          6.655044570980095e-12,
+          -0.07937497160813295
+        ],
+        [
+          -0.9977263518843652,
+          1.8940249368881723e-10,
+          -0.06739530217690233,
+          -1.8850096817972138e-08
+        ],
+        [
+          -0.06739530217690232,
+          6.123726525864015e-12,
+          0.9977263518843651,
+          -6.094285940736124e-10
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        2,
+        6,
+        "parallel"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 1 PointOnLine axis of part2 cylinder face 2",
+        "part1 plane 2 Axis part2 plane 6 (normals parallel)",
+        "part1 plane 2 PointInPlane part2 plane 6"
+      ],
+      "overlap_fraction": 0.1144,
+      "contact_fraction": 0.1448,
+      "part1_transform_4x4": [
+        [
+          1.8178136773627784e-10,
+          -1.0,
+          6.3148895242303404e-12,
+          0.07937497161417507
+        ],
+        [
+          0.9999999999998228,
+          1.8178136773627784e-10,
+          5.954597301859359e-07,
+          -1.8092109442686208e-08
+        ],
+        [
+          -5.95459730185937e-07,
+          6.3147812807253405e-12,
+          0.9999999999998227,
+          -6.285784818086294e-10
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        4,
+        6,
+        "opposed"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 1 PointOnLine axis of part2 cylinder face 2",
+        "part1 plane 4 Axis part2 plane 6 (normals opposed)",
+        "part1 plane 4 PointInPlane part2 plane 6"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.0028,
+      "part1_transform_4x4": [
+        [
+          4.838351941316432e-13,
+          0.9999999999999999,
+          1.6986412276764895e-14,
+          -0.7137399993531469
+        ],
+        [
+          -0.9977321653352552,
+          4.838351941316432e-13,
+          -0.06730918403474237,
+          -4.8207547174255483e-11
+        ],
+        [
+          -0.06730918403474236,
+          1.561945017769517e-14,
+          0.9977321653352553,
+          -1.5560215909069013e-12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "option": [
+        4,
+        6,
+        "parallel"
+      ],
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 cylinder face 1 PointOnLine axis of part2 cylinder face 2",
+        "part1 plane 4 Axis part2 plane 6 (normals parallel)",
+        "part1 plane 4 PointInPlane part2 plane 6"
+      ],
+      "overlap_fraction": 0.2426,
+      "contact_fraction": 0.3248,
+      "part1_transform_4x4": [
+        [
+          4.64184246595778e-13,
+          -1.0,
+          1.6130193627774536e-14,
+          0.7137399993532821
+        ],
+        [
+          0.9999999999998151,
+          4.64184246595778e-13,
+          6.082035275403286e-07,
+          -4.6260574545269846e-11
+        ],
+        [
+          -6.082035275403286e-07,
+          1.6129911248165745e-14,
+          0.999999999999815,
+          -1.60705671409356e-12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "chosen_option": [
+    2,
+    6,
+    "opposed"
+  ]
+}

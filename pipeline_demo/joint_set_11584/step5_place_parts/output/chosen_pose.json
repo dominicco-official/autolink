@@ -1,0 +1,94 @@
+{
+  "part1_transform_4x4": [
+    [
+      3.904099266094363e-12,
+      -0.08444150826758336,
+      -0.9964284378125183,
+      0.12487390841609745
+    ],
+    [
+      -4.566592937127467e-11,
+      0.9964284378125183,
+      -0.08444150826758336,
+      -1.4827882350139836
+    ],
+    [
+      1.0,
+      4.583249058054406e-11,
+      3.4083846855992306e-14,
+      -2.699999997351047
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "part2_transform_4x4": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "option": [
+    3,
+    7,
+    "parallel"
+  ],
+  "underdetermined": true,
+  "note": "no candidate makes real contact: the slide along the axis is not fixed by geometry (user offset or VLM needed)",
+  "comparison_to_designer_ground_truth": {
+    "used_only_for_checking": true,
+    "gt_part1_relative_to_part2_4x4": [
+      [
+        0.0,
+        -1.0,
+        6.123233995736766e-17,
+        1.5
+      ],
+      [
+        0.0,
+        -6.123233995736766e-17,
+        -1.0,
+        9.184850993605148e-17
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.6500000000000001
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "axis_angle_error_deg": 0.0,
+    "axial_offset_cm": 2.049999997282298,
+    "radial_offset_cm": 0.011988558087960122,
+    "note": "spin about the joint axis is a free degree of freedom and is not counted"
+  }
+}

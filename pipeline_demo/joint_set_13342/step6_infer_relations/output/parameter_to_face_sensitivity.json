@@ -1,0 +1,470 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "1": {
+      "tip_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "tip_length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "2": {
+      "tip_length": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "3": {
+      "tip_length": {
+        "d_position/d_param": 1.0
+      },
+      "collar_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "collar_length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "4": {
+      "tip_length": {
+        "d_position/d_param": 1.0
+      },
+      "collar_length": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "5": {
+      "tip_length": {
+        "d_position/d_param": 1.0
+      },
+      "collar_length": {
+        "d_position/d_param": 1.0
+      },
+      "shank_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "shank_length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "6": {
+      "tip_length": {
+        "d_position/d_param": 1.0
+      },
+      "collar_length": {
+        "d_position/d_param": 1.0
+      },
+      "shank_radius": {
+        "d_position/d_param": 0.0542
+      },
+      "shank_length": {
+        "d_position/d_param": 1.0
+      },
+      "chamfer_length": {
+        "d_position/d_param": 0.4731
+      },
+      "end_radius": {
+        "d_position/d_param": 0.075
+      }
+    },
+    "7": {
+      "tip_length": {
+        "d_position/d_param": 1.0
+      },
+      "collar_length": {
+        "d_position/d_param": 1.0
+      },
+      "shank_length": {
+        "d_position/d_param": 1.0
+      },
+      "chamfer_length": {
+        "d_position/d_param": 1.0
+      }
+    }
+  },
+  "part2": {
+    "11": {
+      "plate_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "13": {
+      "plate_radius": {
+        "d_position/d_param": 0.0053
+      },
+      "h0_x": {
+        "d_position/d_param": 0.0257
+      },
+      "h0_y": {
+        "d_position/d_param": 0.0257
+      },
+      "h0_r": {
+        "d_position/d_param": 0.032
+      },
+      "h1_x": {
+        "d_position/d_param": 0.0023
+      },
+      "h1_y": {
+        "d_position/d_param": 0.0023
+      },
+      "h1_r": {
+        "d_position/d_param": 0.0885
+      },
+      "h2_x": {
+        "d_position/d_param": 0.0026
+      },
+      "h2_y": {
+        "d_position/d_param": 0.0026
+      },
+      "h2_r": {
+        "d_position/d_param": 0.0964
+      },
+      "h3_x": {
+        "d_position/d_param": 0.002
+      },
+      "h3_y": {
+        "d_position/d_param": 0.002
+      },
+      "h3_r": {
+        "d_position/d_param": 0.0538
+      },
+      "h4_x": {
+        "d_position/d_param": 0.0048
+      },
+      "h4_y": {
+        "d_position/d_param": 0.0048
+      },
+      "h4_r": {
+        "d_position/d_param": 0.0676
+      },
+      "h5_x": {
+        "d_position/d_param": 0.0008
+      },
+      "h5_y": {
+        "d_position/d_param": 0.0008
+      },
+      "h5_r": {
+        "d_position/d_param": 0.051
+      },
+      "h6_x": {
+        "d_position/d_param": 0.0023
+      },
+      "h6_y": {
+        "d_position/d_param": 0.0023
+      },
+      "h6_r": {
+        "d_position/d_param": 0.0883
+      },
+      "h7_x": {
+        "d_position/d_param": 0.002
+      },
+      "h7_y": {
+        "d_position/d_param": 0.002
+      },
+      "h7_r": {
+        "d_position/d_param": 0.0536
+      },
+      "h8_x": {
+        "d_position/d_param": 0.001
+      },
+      "h8_y": {
+        "d_position/d_param": 0.001
+      },
+      "h8_r": {
+        "d_position/d_param": 0.059
+      },
+      "h9_x": {
+        "d_position/d_param": 0.0023
+      },
+      "h9_y": {
+        "d_position/d_param": 0.0023
+      },
+      "h9_r": {
+        "d_position/d_param": 0.0889
+      },
+      "h10_x": {
+        "d_position/d_param": 0.001
+      },
+      "h10_y": {
+        "d_position/d_param": 0.001
+      },
+      "h10_r": {
+        "d_position/d_param": 0.0572
+      }
+    },
+    "12": {
+      "plate_radius": {
+        "d_position/d_param": 0.0053
+      },
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "h0_x": {
+        "d_position/d_param": 0.0257
+      },
+      "h0_y": {
+        "d_position/d_param": 0.0257
+      },
+      "h0_r": {
+        "d_position/d_param": 0.032
+      },
+      "h1_x": {
+        "d_position/d_param": 0.0023
+      },
+      "h1_y": {
+        "d_position/d_param": 0.0023
+      },
+      "h1_r": {
+        "d_position/d_param": 0.0885
+      },
+      "h2_x": {
+        "d_position/d_param": 0.0026
+      },
+      "h2_y": {
+        "d_position/d_param": 0.0026
+      },
+      "h2_r": {
+        "d_position/d_param": 0.0964
+      },
+      "h3_x": {
+        "d_position/d_param": 0.002
+      },
+      "h3_y": {
+        "d_position/d_param": 0.002
+      },
+      "h3_r": {
+        "d_position/d_param": 0.0538
+      },
+      "h4_x": {
+        "d_position/d_param": 0.0048
+      },
+      "h4_y": {
+        "d_position/d_param": 0.0048
+      },
+      "h4_r": {
+        "d_position/d_param": 0.0676
+      },
+      "h5_x": {
+        "d_position/d_param": 0.0008
+      },
+      "h5_y": {
+        "d_position/d_param": 0.0008
+      },
+      "h5_r": {
+        "d_position/d_param": 0.051
+      },
+      "h6_x": {
+        "d_position/d_param": 0.0023
+      },
+      "h6_y": {
+        "d_position/d_param": 0.0023
+      },
+      "h6_r": {
+        "d_position/d_param": 0.0883
+      },
+      "h7_x": {
+        "d_position/d_param": 0.002
+      },
+      "h7_y": {
+        "d_position/d_param": 0.002
+      },
+      "h7_r": {
+        "d_position/d_param": 0.0536
+      },
+      "h8_x": {
+        "d_position/d_param": 0.001
+      },
+      "h8_y": {
+        "d_position/d_param": 0.001
+      },
+      "h8_r": {
+        "d_position/d_param": 0.059
+      },
+      "h9_x": {
+        "d_position/d_param": 0.0023
+      },
+      "h9_y": {
+        "d_position/d_param": 0.0023
+      },
+      "h9_r": {
+        "d_position/d_param": 0.0889
+      },
+      "h10_x": {
+        "d_position/d_param": 0.001
+      },
+      "h10_y": {
+        "d_position/d_param": 0.001
+      },
+      "h10_r": {
+        "d_position/d_param": 0.0572
+      }
+    },
+    "5": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h5_x": {
+        "d_radius/d_param": 6.0,
+        "d_position/d_param": 64.6607
+      },
+      "h5_y": {
+        "d_position/d_param": 1.0
+      },
+      "h5_r": {
+        "d_radius/d_param": 1.0
+      },
+      "h6_r": {
+        "d_radius/d_param": 7.0,
+        "d_position/d_param": 64.6607
+      }
+    },
+    "6": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h5_x": {
+        "d_radius/d_param": -6.0,
+        "d_position/d_param": 65.437
+      },
+      "h6_x": {
+        "d_position/d_param": 1.0
+      },
+      "h6_y": {
+        "d_position/d_param": 1.0
+      },
+      "h6_r": {
+        "d_radius/d_param": -6.0,
+        "d_position/d_param": 64.6607
+      }
+    },
+    "4": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h4_x": {
+        "d_position/d_param": 1.0
+      },
+      "h4_y": {
+        "d_position/d_param": 1.0
+      },
+      "h4_r": {
+        "d_radius/d_param": 1.0
+      }
+    },
+    "7": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h7_x": {
+        "d_position/d_param": 1.0
+      },
+      "h7_y": {
+        "d_position/d_param": 1.0
+      },
+      "h7_r": {
+        "d_radius/d_param": 1.0
+      }
+    },
+    "0": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h0_x": {
+        "d_position/d_param": 1.0
+      },
+      "h0_y": {
+        "d_position/d_param": 1.0
+      },
+      "h0_r": {
+        "d_radius/d_param": 1.0
+      }
+    },
+    "1": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h1_x": {
+        "d_position/d_param": 1.0
+      },
+      "h1_y": {
+        "d_position/d_param": 1.0
+      },
+      "h1_r": {
+        "d_radius/d_param": 1.0
+      }
+    },
+    "3": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h3_x": {
+        "d_position/d_param": 1.0
+      },
+      "h3_y": {
+        "d_position/d_param": 1.0
+      },
+      "h3_r": {
+        "d_radius/d_param": 1.0
+      }
+    },
+    "8": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h8_x": {
+        "d_position/d_param": 1.0
+      },
+      "h8_y": {
+        "d_position/d_param": 1.0
+      },
+      "h8_r": {
+        "d_radius/d_param": 1.0
+      }
+    },
+    "10": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h10_x": {
+        "d_position/d_param": 1.0
+      },
+      "h10_y": {
+        "d_position/d_param": 1.0
+      },
+      "h10_r": {
+        "d_radius/d_param": 1.0
+      }
+    },
+    "2": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h2_x": {
+        "d_position/d_param": 1.0
+      },
+      "h2_y": {
+        "d_position/d_param": 1.0
+      },
+      "h2_r": {
+        "d_radius/d_param": 1.0
+      }
+    },
+    "9": {
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "h9_x": {
+        "d_position/d_param": 1.0
+      },
+      "h9_y": {
+        "d_position/d_param": 1.0
+      },
+      "h9_r": {
+        "d_radius/d_param": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# Step 5 - Place the parts
+Tool: CadQuery assembly solver + trimesh sampling. planar faces adjacent to each mating cylinder with normal along the axis; every pairing, with normals opposed (faces touch) or parallel (faces flush, nested), is a candidate stop position. Candidates: 8; chosen option [0, 3, 'parallel'] with 34% contact, 0.0% overlap. Output: `pose_candidates_scored.json`, `chosen_pose.json`, `.step` files.

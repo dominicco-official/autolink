@@ -1,0 +1,151 @@
+{
+  "body": "56166_003bf479_0007_2",
+  "PASS": true,
+  "checks": [
+    {
+      "check": "face count equal",
+      "cadquery": 7,
+      "dataset": 7,
+      "pass": true
+    },
+    {
+      "check": "every dataset face matched (type, position, radius)",
+      "matched": 7,
+      "of": 7,
+      "pass": true
+    },
+    {
+      "check": "volume within 0.1%",
+      "cadquery": 0.15387042431261488,
+      "dataset": 0.15387042431262057,
+      "pass": true
+    },
+    {
+      "check": "bounding box within 1e-4 cm",
+      "max_abs_err": 3.1328246241635327e-07,
+      "pass": true
+    },
+    {
+      "check": "mean surface distance to dataset mesh < max(0.01 cm, 0.5% of bbox diagonal)",
+      "chamfer_cm": 0.002632949593248647,
+      "tolerance_cm": 0.011357816691600546,
+      "pass": true
+    }
+  ],
+  "face_matching": [
+    {
+      "dataset_face": 0,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 0,
+      "centroid_distance": 3.154493163591199e-07,
+      "area_dataset": 0.067287644618217,
+      "area_cadquery": 0.06728764461821697,
+      "area_rel_err": 4.1249141314294956e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 1,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 2,
+      "centroid_distance": 3.1544932099313046e-07,
+      "area_dataset": 0.058376061525374764,
+      "area_cadquery": 0.05837606152537475,
+      "area_rel_err": 2.3773080000921426e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 2,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 4,
+      "centroid_distance": 3.1544932107372216e-07,
+      "area_dataset": 0.058376061525374764,
+      "area_cadquery": 0.05837606152537475,
+      "area_rel_err": 2.3773080000921426e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 3,
+      "type": "CYLINDER",
+      "radius": 0.2,
+      "matched_cq_face": 3,
+      "centroid_distance": 3.154493185594815e-07,
+      "area_dataset": 0.12566370614359185,
+      "area_cadquery": 0.1256637061435917,
+      "area_rel_err": 1.1043592643970533e-15,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 4,
+      "type": "CYLINDER",
+      "radius": 0.14635000000000004,
+      "matched_cq_face": 5,
+      "centroid_distance": 3.1544931641204573e-07,
+      "area_dataset": 1.4712706715291723,
+      "area_cadquery": 1.4712706715291721,
+      "area_rel_err": 1.5092029578367668e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 5,
+      "type": "CYLINDER",
+      "radius": 0.14635000000000004,
+      "matched_cq_face": 1,
+      "centroid_distance": 3.1544931638626083e-07,
+      "area_dataset": 0.45977208485286614,
+      "area_cadquery": 0.45977208485286625,
+      "area_rel_err": 2.414724732538828e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 6,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 6,
+      "centroid_distance": 3.154493164142497e-07,
+      "area_dataset": 0.067287644618217,
+      "area_cadquery": 0.06728764461821699,
+      "area_rel_err": 2.0624570657147478e-16,
+      "MATCH": true
+    }
+  ],
+  "side_table_dataset_face_to_cadquery_face": {
+    "0": 0,
+    "1": 2,
+    "2": 4,
+    "3": 3,
+    "4": 5,
+    "5": 1,
+    "6": 6
+  },
+  "face_adjacency_from_dataset": {
+    "0": [
+      5
+    ],
+    "1": [
+      3,
+      5
+    ],
+    "2": [
+      3,
+      4
+    ],
+    "3": [
+      1,
+      2
+    ],
+    "4": [
+      2,
+      6
+    ],
+    "5": [
+      0,
+      1
+    ],
+    "6": [
+      4
+    ]
+  }
+}

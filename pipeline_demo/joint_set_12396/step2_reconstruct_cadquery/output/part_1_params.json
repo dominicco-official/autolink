@@ -1,0 +1,15 @@
+{
+  "x0": 7.492254,
+  "bore_radius": 0.08,
+  "flange_radius": 0.22,
+  "flange_length": 0.08,
+  "flange_end_radius": 0.220019,
+  "shank_radius": 0.12,
+  "chamfer_end_x": 7.63,
+  "shank_end_x": 7.85,
+  "head_arc_radius": 0.2,
+  "head_arc_cx": 8.007442,
+  "head_arc_cr": -0.0034,
+  "x_end": 8.142254,
+  "end_radius": 0.144399
+}

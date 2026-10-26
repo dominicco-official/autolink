@@ -1,0 +1,30 @@
+{
+  "joint_set": "joint_set_04039",
+  "part1_face": 1,
+  "part1_type": "CYLINDER",
+  "part1_radius": 0.714375,
+  "part2_face": 2,
+  "part2_type": "CYLINDER",
+  "part2_radius": 0.71374,
+  "lookup_key": "CYLINDER|CYLINDER",
+  "rule": {
+    "name": "concentric",
+    "constraints": [
+      "coaxial"
+    ],
+    "free_dof": [
+      "slide along axis",
+      "spin about axis"
+    ],
+    "resolve_slide": "shoulder search (step 5)",
+    "radius_relation": "r1 = r2 + clearance"
+  },
+  "edge_promotion": [],
+  "radius_difference": 0.0006349999999999412,
+  "fit_label_geometric": "clearance",
+  "where_an_LLM_or_VLM_could_add_value": [
+    "name the functional intent (press fit vs clearance vs sliding)",
+    "handle pairs not in the rule table (torus, nurbs, mixed)",
+    "break ties when Step 5 contact scores are close"
+  ]
+}

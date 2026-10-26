@@ -1,0 +1,5 @@
+{
+  "body_one": "137295_a2385b57_0000_1",
+  "body_two": "137295_a2385b57_0000_2",
+  "note": "JoinABLe inference only needs the two body ids; the designer's joints are NOT read here."
+}

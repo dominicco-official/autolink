@@ -1,0 +1,28 @@
+BODY 21237_7887a24b_0048_1
+faces=8 edges=7 volume=0.076093 area=1.200372
+bbox min=(0.000000, -0.250000, -0.250000) max=(0.810000, 0.250000, 0.250000)
+
+face  0 Plane     area=0.031416 centroid=(0.000000, -0.000000, 0.000000) normal=(-1.000, -0.000, 0.000)
+face  1 Cylinder  area=0.084823 centroid=(0.067500, -0.000000, -0.000000) normal=(0.000, 0.000, 1.000) radius=0.100000 axis=(1.000, 0.000, 0.000) origin=(0.067500, 0.000000, 0.000000)
+face  2 Plane     area=0.164934 centroid=(0.135000, -0.000000, 0.000000) normal=(-1.000, -0.000, 0.000)
+face  3 Cylinder  area=0.353429 centroid=(0.247500, -0.000000, -0.000000) normal=(0.000, 0.000, 1.000) radius=0.250000 axis=(1.000, 0.000, 0.000) origin=(0.247500, 0.000000, 0.000000)
+face  4 Plane     area=0.131205 centroid=(0.360000, -0.000000, 0.000000) normal=(1.000, 0.000, 0.000)
+face  5 Cylinder  area=0.316673 centroid=(0.535000, -0.000000, -0.000000) normal=(0.000, 0.000, 1.000) radius=0.144000 axis=(1.000, 0.000, 0.000) origin=(0.535000, 0.000000, 0.000000)
+face  6 Cone      area=0.083913 centroid=(0.757312, 0.000000, -0.000000) normal=(0.371, 0.000, 0.928) radius=0.124000 axis=(1.000, 0.000, 0.000) origin=(0.760000, 0.000000, 0.000000)
+face  7 Plane     area=0.033979 centroid=(0.810000, -0.000000, 0.000000) normal=(1.000, 0.000, 0.000)
+edge  8 Circle3D  length=0.628319 Convex radius=0.100000 center=(0.000000, 0.000000, 0.000000)
+edge  9 Circle3D  length=0.628319 Concave radius=0.100000 center=(0.135000, 0.000000, 0.000000)
+edge 10 Circle3D  length=1.570796 Convex radius=0.250000 center=(0.135000, 0.000000, 0.000000)
+edge 11 Circle3D  length=1.570796 Convex radius=0.250000 center=(0.360000, 0.000000, 0.000000)
+edge 12 Circle3D  length=0.904779 Concave radius=0.144000 center=(0.360000, 0.000000, 0.000000)
+edge 13 Circle3D  length=0.904779 Convex radius=0.144000 center=(0.710000, 0.000000, 0.000000)
+edge 14 Circle3D  length=0.653451 Convex radius=0.104000 center=(0.810000, 0.000000, 0.000000)
+
+edge -> faces it borders:
+  edge 8: faces [0, 1]
+  edge 9: faces [1, 2]
+  edge 10: faces [2, 3]
+  edge 11: faces [3, 4]
+  edge 12: faces [4, 5]
+  edge 13: faces [5, 6]
+  edge 14: faces [6, 7]

@@ -1,0 +1,259 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "2": {
+      "rod_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "rod_bottom_y": {
+        "d_position/d_param": 0.5
+      },
+      "rod_top_y": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "0": {
+      "rod_radius": {
+        "d_position/d_param": 0.1637
+      },
+      "rod_bottom_y": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "3": {
+      "rod_radius": {
+        "d_position/d_param": 6.0912
+      },
+      "rod_top_y": {
+        "d_position/d_param": 1.0
+      },
+      "tab_thickness": {
+        "d_position/d_param": 0.2833
+      }
+    },
+    "4": {
+      "rod_radius": {
+        "d_position/d_param": 10.0016
+      },
+      "rod_top_y": {
+        "d_position/d_param": 1.0
+      },
+      "tab_width": {
+        "d_position/d_param": 16.8078
+      }
+    },
+    "5": {
+      "rod_radius": {
+        "d_position/d_param": 6.0912
+      },
+      "rod_top_y": {
+        "d_position/d_param": 1.0
+      },
+      "tab_thickness": {
+        "d_position/d_param": 0.2833
+      },
+      "tab_width": {
+        "d_position/d_param": 15.8932
+      }
+    },
+    "6": {
+      "rod_radius": {
+        "d_position/d_param": 10.0016
+      },
+      "rod_top_y": {
+        "d_position/d_param": 1.0
+      },
+      "tab_width": {
+        "d_position/d_param": 0.1792
+      }
+    },
+    "1": {
+      "rod_bottom_y": {
+        "d_position/d_param": 1.0
+      },
+      "tab_width": {
+        "d_position/d_param": 605.0911
+      }
+    },
+    "11": {
+      "rod_top_y": {
+        "d_position/d_param": 0.5467
+      },
+      "tab_thickness": {
+        "d_position/d_param": 0.5
+      },
+      "tab_width": {
+        "d_position/d_param": 15.8916
+      },
+      "eye_center_y": {
+        "d_position/d_param": 0.457
+      },
+      "eye_outer_radius": {
+        "d_position/d_param": 0.627
+      },
+      "eye_hole_radius": {
+        "d_position/d_param": 0.5422
+      }
+    },
+    "8": {
+      "rod_top_y": {
+        "d_position/d_param": 0.5
+      },
+      "tab_width": {
+        "d_position/d_param": 22.6794
+      },
+      "eye_center_y": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "12": {
+      "rod_top_y": {
+        "d_position/d_param": 0.5467
+      },
+      "tab_thickness": {
+        "d_position/d_param": 0.5
+      },
+      "tab_width": {
+        "d_position/d_param": 0.0019
+      },
+      "eye_center_y": {
+        "d_position/d_param": 0.457
+      },
+      "eye_outer_radius": {
+        "d_position/d_param": 0.627
+      },
+      "eye_hole_radius": {
+        "d_position/d_param": 0.5422
+      }
+    },
+    "10": {
+      "rod_top_y": {
+        "d_position/d_param": 0.5
+      },
+      "tab_width": {
+        "d_position/d_param": 15.3981
+      },
+      "eye_center_y": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "9": {
+      "tab_width": {
+        "d_radius/d_param": 0.5125,
+        "d_position/d_param": 0.02
+      },
+      "eye_center_y": {
+        "d_position/d_param": 1.0
+      },
+      "eye_outer_radius": {
+        "d_radius/d_param": 0.0455,
+        "d_position/d_param": 0.5909
+      }
+    },
+    "7": {
+      "eye_center_y": {
+        "d_position/d_param": 1.0
+      },
+      "eye_hole_radius": {
+        "d_radius/d_param": 1.0
+      }
+    }
+  },
+  "part2": {
+    "5": {
+      "inner_radius": {
+        "d_position/d_param": 0.2986
+      },
+      "outer_radius": {
+        "d_position/d_param": 0.3554
+      },
+      "y_start": {
+        "d_position/d_param": 1.0
+      },
+      "cut_offset": {
+        "d_position/d_param": 0.4895
+      }
+    },
+    "2": {
+      "inner_radius": {
+        "d_position/d_param": 0.5638
+      },
+      "outer_radius": {
+        "d_position/d_param": 0.5289
+      },
+      "y_start": {
+        "d_position/d_param": 1.0
+      },
+      "length": {
+        "d_position/d_param": 0.5
+      },
+      "cut_offset": {
+        "d_position/d_param": 1.1242
+      }
+    },
+    "4": {
+      "inner_radius": {
+        "d_position/d_param": 0.2986
+      },
+      "outer_radius": {
+        "d_position/d_param": 0.3554
+      },
+      "y_start": {
+        "d_position/d_param": 1.0
+      },
+      "length": {
+        "d_position/d_param": 1.0
+      },
+      "cut_offset": {
+        "d_position/d_param": 0.4895
+      }
+    },
+    "0": {
+      "inner_radius": {
+        "d_position/d_param": 0.5638
+      },
+      "outer_radius": {
+        "d_position/d_param": 0.5289
+      },
+      "y_start": {
+        "d_position/d_param": 1.0
+      },
+      "length": {
+        "d_position/d_param": 0.5
+      },
+      "cut_offset": {
+        "d_position/d_param": 1.1242
+      }
+    },
+    "1": {
+      "inner_radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.6596
+      },
+      "y_start": {
+        "d_position/d_param": 1.0
+      },
+      "length": {
+        "d_position/d_param": 0.5
+      },
+      "cut_offset": {
+        "d_position/d_param": 0.5151
+      }
+    },
+    "3": {
+      "outer_radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.6459
+      },
+      "y_start": {
+        "d_position/d_param": 1.0
+      },
+      "length": {
+        "d_position/d_param": 0.5
+      },
+      "cut_offset": {
+        "d_position/d_param": 0.4674
+      }
+    }
+  }
+}

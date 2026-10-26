@@ -1,0 +1,10 @@
+{
+  "length": 1.0,
+  "height": 0.6,
+  "width": 0.6,
+  "corner_fillet": 0.1,
+  "pocket_size": 0.140137,
+  "pocket_depth": 0.2,
+  "pocket_dx": 0.50973,
+  "pocket_dz": 0.297238
+}

@@ -1,0 +1,36 @@
+BODY 56480_dcc89e9a_0024_1
+faces=6 edges=12 volume=0.003928 area=0.151386
+bbox min=(2.239662, 1.400000, 9.227169) max=(2.379799, 1.600000, 9.367306)
+
+face  0 Plane     area=0.028027 centroid=(2.239662, 1.500000, 9.297238) normal=(-1.000, 0.000, 0.000)
+face  1 Plane     area=0.028027 centroid=(2.309730, 1.500000, 9.227169) normal=(0.000, 0.000, -1.000)
+face  2 Plane     area=0.028027 centroid=(2.379799, 1.500000, 9.297238) normal=(1.000, 0.000, 0.000)
+face  3 Plane     area=0.028027 centroid=(2.309730, 1.500000, 9.367306) normal=(0.000, -0.000, 1.000)
+face  4 Plane     area=0.019638 centroid=(2.309730, 1.600000, 9.297238) normal=(0.000, 1.000, 0.000)
+face  5 Plane     area=0.019638 centroid=(2.309730, 1.400000, 9.297238) normal=(0.000, 1.000, 0.000) (reversed: material on the other side)
+edge  6 Line3D    length=0.140137 Convex
+edge  7 Line3D    length=0.200000 Convex
+edge  8 Line3D    length=0.140137 Convex
+edge  9 Line3D    length=0.200000 Convex
+edge 10 Line3D    length=0.140137 Convex
+edge 11 Line3D    length=0.140137 Convex
+edge 12 Line3D    length=0.200000 Convex
+edge 13 Line3D    length=0.140137 Convex
+edge 14 Line3D    length=0.140137 Convex
+edge 15 Line3D    length=0.200000 Convex
+edge 16 Line3D    length=0.140137 Convex
+edge 17 Line3D    length=0.140137 Convex
+
+edge -> faces it borders:
+  edge 6: faces [0, 5]
+  edge 7: faces [0, 3]
+  edge 8: faces [0, 4]
+  edge 9: faces [0, 1]
+  edge 10: faces [1, 5]
+  edge 11: faces [1, 4]
+  edge 12: faces [1, 2]
+  edge 13: faces [2, 5]
+  edge 14: faces [2, 4]
+  edge 15: faces [2, 3]
+  edge 16: faces [3, 5]
+  edge 17: faces [3, 4]

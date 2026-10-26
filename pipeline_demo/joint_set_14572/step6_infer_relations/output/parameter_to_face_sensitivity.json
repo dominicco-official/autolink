@@ -1,0 +1,367 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "6": {
+      "hub_radius": {
+        "d_position/d_param": 0.5281
+      },
+      "arm_thickness": {
+        "d_position/d_param": 0.5
+      },
+      "end_x": {
+        "d_position/d_param": 0.4949
+      },
+      "end_radius": {
+        "d_position/d_param": 0.5281
+      }
+    },
+    "7": {
+      "hub_radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.202
+      },
+      "hub_height": {
+        "d_position/d_param": 0.5763
+      },
+      "arm_thickness": {
+        "d_position/d_param": 0.3436
+      },
+      "end_x": {
+        "d_position/d_param": 0.0007
+      },
+      "end_radius": {
+        "d_position/d_param": 0.0233
+      }
+    },
+    "9": {
+      "hub_radius": {
+        "d_position/d_param": 0.0612
+      },
+      "arm_thickness": {
+        "d_position/d_param": 0.5
+      },
+      "end_x": {
+        "d_position/d_param": 0.9981
+      },
+      "end_radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5845
+      }
+    },
+    "10": {
+      "hub_radius": {
+        "d_position/d_param": 1.0577
+      },
+      "end_x": {
+        "d_position/d_param": 0.4824
+      },
+      "end_radius": {
+        "d_position/d_param": 1.2612
+      },
+      "bottom_pin_radius": {
+        "d_position/d_param": 0.5469
+      }
+    },
+    "5": {
+      "hub_radius": {
+        "d_position/d_param": 0.0206
+      },
+      "arm_thickness": {
+        "d_position/d_param": 1.0
+      },
+      "end_x": {
+        "d_position/d_param": 0.4837
+      },
+      "end_radius": {
+        "d_position/d_param": 0.864
+      }
+    },
+    "8": {
+      "hub_radius": {
+        "d_position/d_param": 0.5281
+      },
+      "arm_thickness": {
+        "d_position/d_param": 0.5
+      },
+      "end_x": {
+        "d_position/d_param": 0.4949
+      },
+      "end_radius": {
+        "d_position/d_param": 0.5281
+      }
+    },
+    "4": {
+      "hub_height": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "2": {
+      "hub_height": {
+        "d_position/d_param": 0.5
+      },
+      "top_pin_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "top_pin_top_y": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "top_pin_top_y": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "0": {
+      "end_x": {
+        "d_position/d_param": 1.0
+      },
+      "bottom_pin_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "bottom_pin_length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "1": {
+      "end_x": {
+        "d_position/d_param": 1.0
+      },
+      "bottom_pin_length": {
+        "d_position/d_param": 1.0
+      }
+    }
+  },
+  "part2": {
+    "12": {
+      "hub_radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.0097
+      },
+      "hub_height": {
+        "d_position/d_param": 0.5
+      },
+      "arm_width": {
+        "d_position/d_param": 0.193
+      }
+    },
+    "7": {
+      "hub_radius": {
+        "d_position/d_param": 1.0962
+      },
+      "bore_radius": {
+        "d_position/d_param": 0.6996
+      },
+      "arm_width": {
+        "d_position/d_param": 0.3152
+      },
+      "block_end_x": {
+        "d_position/d_param": 0.4593
+      }
+    },
+    "11": {
+      "hub_radius": {
+        "d_position/d_param": 1.3016
+      },
+      "hub_height": {
+        "d_position/d_param": 1.0795
+      },
+      "arm_width": {
+        "d_position/d_param": 0.5014
+      },
+      "block_end_x": {
+        "d_position/d_param": 0.7452
+      },
+      "chamfer": {
+        "d_position/d_param": 0.2486
+      },
+      "web_bottom_y": {
+        "d_position/d_param": 3.3008
+      },
+      "web_top_y": {
+        "d_position/d_param": 2.968
+      },
+      "end_x": {
+        "d_position/d_param": 0.4939
+      },
+      "end_radius": {
+        "d_position/d_param": 2.938
+      }
+    },
+    "13": {
+      "hub_radius": {
+        "d_position/d_param": 1.0962
+      },
+      "bore_radius": {
+        "d_position/d_param": 0.6996
+      },
+      "hub_height": {
+        "d_position/d_param": 1.0
+      },
+      "arm_width": {
+        "d_position/d_param": 0.3152
+      },
+      "block_end_x": {
+        "d_position/d_param": 0.4593
+      }
+    },
+    "2": {
+      "hub_radius": {
+        "d_position/d_param": 1.3016
+      },
+      "hub_height": {
+        "d_position/d_param": 1.0795
+      },
+      "arm_width": {
+        "d_position/d_param": 0.5014
+      },
+      "block_end_x": {
+        "d_position/d_param": 0.7452
+      },
+      "chamfer": {
+        "d_position/d_param": 0.2486
+      },
+      "web_bottom_y": {
+        "d_position/d_param": 3.3008
+      },
+      "web_top_y": {
+        "d_position/d_param": 2.968
+      },
+      "end_x": {
+        "d_position/d_param": 0.4939
+      },
+      "end_radius": {
+        "d_position/d_param": 2.938
+      }
+    },
+    "9": {
+      "bore_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "hub_height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "hub_height": {
+        "d_position/d_param": 1.0
+      },
+      "block_end_x": {
+        "d_position/d_param": 1.0
+      },
+      "chamfer": {
+        "d_position/d_param": 0.7071
+      }
+    },
+    "4": {
+      "hub_height": {
+        "d_position/d_param": 0.5
+      },
+      "block_end_x": {
+        "d_position/d_param": 1.0
+      },
+      "chamfer": {
+        "d_position/d_param": 1.118
+      },
+      "web_top_y": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "6": {
+      "arm_width": {
+        "d_position/d_param": 0.1309
+      },
+      "block_end_x": {
+        "d_position/d_param": 0.5001
+      },
+      "chamfer": {
+        "d_position/d_param": 0.5001
+      },
+      "web_top_y": {
+        "d_position/d_param": 1.0
+      },
+      "end_x": {
+        "d_position/d_param": 0.4999
+      },
+      "end_radius": {
+        "d_position/d_param": 0.9128
+      },
+      "end_hole_radius": {
+        "d_position/d_param": 0.6512
+      }
+    },
+    "10": {
+      "arm_width": {
+        "d_position/d_param": 0.1811
+      },
+      "web_bottom_y": {
+        "d_position/d_param": 0.5
+      },
+      "web_top_y": {
+        "d_position/d_param": 0.5
+      },
+      "end_x": {
+        "d_position/d_param": 1.0
+      },
+      "end_radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 1.9139
+      }
+    },
+    "5": {
+      "arm_width": {
+        "d_position/d_param": 0.1309
+      },
+      "block_end_x": {
+        "d_position/d_param": 0.5001
+      },
+      "chamfer": {
+        "d_position/d_param": 0.5001
+      },
+      "web_bottom_y": {
+        "d_position/d_param": 1.0
+      },
+      "end_x": {
+        "d_position/d_param": 0.4999
+      },
+      "end_radius": {
+        "d_position/d_param": 0.9128
+      },
+      "end_hole_radius": {
+        "d_position/d_param": 0.6512
+      }
+    },
+    "0": {
+      "block_end_x": {
+        "d_position/d_param": 1.0
+      },
+      "chamfer": {
+        "d_position/d_param": 0.7071
+      }
+    },
+    "1": {
+      "block_end_x": {
+        "d_position/d_param": 1.0
+      },
+      "chamfer": {
+        "d_position/d_param": 1.118
+      },
+      "web_bottom_y": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "8": {
+      "web_bottom_y": {
+        "d_position/d_param": 0.5
+      },
+      "web_top_y": {
+        "d_position/d_param": 0.5
+      },
+      "end_x": {
+        "d_position/d_param": 1.0
+      },
+      "end_hole_radius": {
+        "d_radius/d_param": 1.0
+      }
+    }
+  }
+}

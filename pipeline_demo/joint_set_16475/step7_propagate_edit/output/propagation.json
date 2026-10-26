@@ -1,0 +1,58 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "radius": 4.095
+    }
+  },
+  "propagated_to_part1": [
+    {
+      "relation": "part1.disc_radius = part2.radius",
+      "part1_param": "disc_radius",
+      "old": 3.15,
+      "new": 4.095
+    }
+  ],
+  "part1_params_after": {
+    "disc_radius": 4.095,
+    "disc_thickness": 0.3,
+    "chamfer": 0.05,
+    "pin_radius": 0.25,
+    "pin_length": 1.9
+  },
+  "part2_params_after": {
+    "radius": 4.095,
+    "thickness": 0.3,
+    "fillet": 0.1
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        0.9604610339797897,
+        0.14113652814845767,
+        -0.23998975525774643,
+        10.921607906940046
+      ],
+      [
+        -0.0595870531811996,
+        -0.7378092758852042,
+        -0.6723740443465468,
+        30.641793406589308
+      ],
+      [
+        -0.2719632057827939,
+        0.6600893521637438,
+        -0.7002271501879911,
+        -42.45166834996385
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.0,
+    "contact_fraction": 0.4394
+  }
+}

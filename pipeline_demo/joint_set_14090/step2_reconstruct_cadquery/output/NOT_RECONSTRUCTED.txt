@@ -1,0 +1,1 @@
+No CadQuery reconstruction exists for this joint set yet (recon/recon_<id>/part_N.py). Run pipeline/llm_reconstruct.py or request one from the agent in the web UI.

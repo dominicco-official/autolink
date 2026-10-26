@@ -1,0 +1,48 @@
+BODY 137295_a2385b57_0000_1
+faces=14 edges=14 volume=559.453864 area=1057.461647
+bbox min=(-7.000000, -7.000000, 0.000000) max=(7.000000, 7.000000, 18.500000)
+
+face  0 Torus     area=3.588694 centroid=(-0.000000, 0.000000, 14.458378) normal=(1.000, 0.000, -0.013) axis=(0.000, 0.000, 1.000) origin=(0.000000, 0.000000, 14.400000) curvatures=(10.000000, -0.301678)
+face  1 Cone      area=304.821187 centroid=(0.000000, -0.000000, 8.162309) normal=(0.000, 0.991, 0.135) radius=4.150000 axis=(0.000, 0.000, 1.000) origin=(0.000000, 0.000000, 8.250000)
+face  2 Plane     area=1.856836 centroid=(-0.000000, -0.000000, 14.500000) normal=(-0.000, 0.000, -1.000)
+face  3 Torus     area=4.898938 centroid=(-0.000000, 0.000000, 0.263487) normal=(0.707, 0.000, -0.707) axis=(0.000, 0.000, 1.000) origin=(0.000000, 0.000000, 0.200000) curvatures=(10.000000, 0.142255)
+face  4 Plane     area=19.430008 centroid=(-0.000000, 0.000000, 0.300000) normal=(-0.000, 0.000, -1.000)
+face  5 Cylinder  area=6.283185 centroid=(-0.000000, -0.000000, 0.100000) normal=(-0.000, -1.000, 0.000) radius=5.000000 axis=(0.000, 0.000, 1.000) origin=(0.000000, 0.000000, 0.150000) (reversed: material on the other side)
+face  6 Torus     area=37.642879 centroid=(-0.000000, 0.000000, 2.238752) normal=(-0.658, -0.000, 0.753) axis=(0.000, 0.000, 1.000) origin=(0.000000, 0.000000, 2.800000) curvatures=(1.250000, -0.127164)
+face  7 Plane     area=51.919099 centroid=(-0.000000, -0.000000, 2.000000) normal=(0.000, 0.000, 1.000)
+face  8 Cylinder  area=86.995047 centroid=(-0.000000, -0.000000, 15.730862) normal=(-0.000, -1.000, 0.000) radius=2.500000 axis=(0.000, 0.000, 1.000) origin=(0.000000, 0.000000, 15.730862) (reversed: material on the other side)
+face  9 Cone      area=269.848806 centroid=(-0.000000, -0.000000, 6.090263) normal=(-0.000, -0.991, -0.135) radius=3.360997 axis=(0.000, 0.000, 1.000) origin=(0.000000, 0.000000, 6.630862)
+face 10 Plane     area=75.398224 centroid=(-0.000000, 0.000000, 0.000000) normal=(-0.000, 0.000, -1.000)
+face 11 Cylinder  area=87.964594 centroid=(0.000000, -0.000000, 1.000000) normal=(0.000, 1.000, 0.000) radius=7.000000 axis=(0.000, 0.000, 1.000) origin=(0.000000, 0.000000, 1.000000)
+face 12 Cylinder  area=87.964594 centroid=(-0.000000, -0.000000, 16.500000) normal=(0.000, 1.000, 0.000) radius=3.500000 axis=(0.000, 0.000, 1.000) origin=(0.000000, 0.000000, 16.500000)
+face 13 Plane     area=18.849556 centroid=(-0.000000, 0.000000, 18.500000) normal=(0.000, 0.000, 1.000)
+edge 14 Circle3D  length=20.831478 Smooth radius=3.315433 center=(0.000000, -0.000000, 14.386524)
+edge 15 Circle3D  length=21.454065 Smooth radius=3.414521 center=(0.000000, 0.000000, 14.500000)
+edge 16 Circle3D  length=30.824439 Smooth radius=4.905862 center=(0.000000, -0.000000, 2.692192)
+edge 17 Circle3D  length=21.991149 Convex radius=3.500000 center=(0.000000, 0.000000, 14.500000)
+edge 18 Circle3D  length=30.787608 Smooth radius=4.900000 center=(0.000000, 0.000000, 0.300000)
+edge 19 Circle3D  length=31.415927 Smooth radius=5.000000 center=(0.000000, 0.000000, 0.200000)
+edge 20 Circle3D  length=26.527573 Convex radius=4.221994 center=(0.000000, 0.000000, 0.300000)
+edge 21 Circle3D  length=31.415927 Convex radius=5.000000 center=(0.000000, 0.000000, 0.000000)
+edge 22 Circle3D  length=35.805137 Smooth radius=5.698565 center=(0.000000, 0.000000, 2.000000)
+edge 23 Circle3D  length=43.982297 Convex radius=7.000000 center=(0.000000, 0.000000, 2.000000)
+edge 24 Circle3D  length=15.707963 Convex radius=2.500000 center=(0.000000, 0.000000, 18.500000)
+edge 25 Circle3D  length=15.707963 Convex radius=2.500000 center=(0.000000, 0.000000, 12.961723)
+edge 26 Circle3D  length=43.982297 Convex radius=7.000000 center=(0.000000, 0.000000, 0.000000)
+edge 27 Circle3D  length=21.991149 Convex radius=3.500000 center=(0.000000, 0.000000, 18.500000)
+
+edge -> faces it borders:
+  edge 14: faces [0, 1]
+  edge 15: faces [0, 2]
+  edge 16: faces [1, 6]
+  edge 17: faces [2, 12]
+  edge 18: faces [3, 4]
+  edge 19: faces [3, 5]
+  edge 20: faces [4, 9]
+  edge 21: faces [5, 10]
+  edge 22: faces [6, 7]
+  edge 23: faces [7, 11]
+  edge 24: faces [8, 13]
+  edge 25: faces [8, 9]
+  edge 26: faces [10, 11]
+  edge 27: faces [12, 13]

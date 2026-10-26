@@ -1,0 +1,71 @@
+{
+  "body": "55717_8ee13ef1_0016_1",
+  "PASS": true,
+  "checks": [
+    {
+      "check": "face count equal",
+      "cadquery": 2,
+      "dataset": 2,
+      "pass": true
+    },
+    {
+      "check": "every dataset face matched (type, position, radius)",
+      "matched": 2,
+      "of": 2,
+      "pass": true
+    },
+    {
+      "check": "volume within 0.1%",
+      "cadquery": 0.5362654153781852,
+      "dataset": 0.5362653959355711,
+      "pass": true
+    },
+    {
+      "check": "bounding box within 1e-4 cm",
+      "max_abs_err": 7.674098023713327e-09,
+      "pass": true
+    },
+    {
+      "check": "mean surface distance to dataset mesh < max(0.01 cm, 0.5% of bbox diagonal)",
+      "chamfer_cm": 0.002361394242531516,
+      "tolerance_cm": 0.01,
+      "pass": true
+    }
+  ],
+  "face_matching": [
+    {
+      "dataset_face": 0,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 0,
+      "centroid_distance": 6.128906565601409e-17,
+      "area_dataset": 1.2667686671254543,
+      "area_cadquery": 1.2667686977437445,
+      "area_rel_err": 2.4170387948571434e-08,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 1,
+      "type": "SPHERE",
+      "radius": 0.634999992325902,
+      "matched_cq_face": 1,
+      "centroid_distance": 3.837049067367815e-09,
+      "area_dataset": 2.5335373342509087,
+      "area_cadquery": 2.5335373954874885,
+      "area_rel_err": 2.4170387773287177e-08,
+      "MATCH": true
+    }
+  ],
+  "side_table_dataset_face_to_cadquery_face": {
+    "0": 0,
+    "1": 1
+  },
+  "face_adjacency_from_dataset": {
+    "0": [
+      1
+    ],
+    "1": [
+      0
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+BODY 23552_10239b96_0025_2
+faces=4 edges=4 volume=0.047124 area=1.256637
+bbox min=(1.200000, 0.000000, 5.200000) max=(1.800000, 0.300000, 5.800000)
+
+face  0 Cylinder  area=0.376991 centroid=(1.500000, 0.150000, 5.500000) normal=(-1.000, -0.000, 0.000) radius=0.200000 axis=(0.000, -1.000, -0.000) origin=(1.500000, 0.150000, 5.500000) (reversed: material on the other side)
+face  1 Cylinder  area=0.565487 centroid=(1.500000, 0.150000, 5.500000) normal=(0.000, 0.000, -1.000) radius=0.300000 axis=(0.000, 1.000, 0.000) origin=(1.500000, 0.150000, 5.500000)
+face  2 Plane     area=0.157080 centroid=(1.500000, 0.000000, 5.500000) normal=(0.000, -1.000, -0.000)
+face  3 Plane     area=0.157080 centroid=(1.500000, 0.300000, 5.500000) normal=(0.000, 1.000, 0.000)
+edge  4 Circle3D  length=1.256637 Convex radius=0.200000 center=(1.500000, 0.300000, 5.500000)
+edge  5 Circle3D  length=1.256637 Convex radius=0.200000 center=(1.500000, 0.000000, 5.500000)
+edge  6 Circle3D  length=1.884956 Convex radius=0.300000 center=(1.500000, 0.000000, 5.500000)
+edge  7 Circle3D  length=1.884956 Convex radius=0.300000 center=(1.500000, 0.300000, 5.500000)
+
+edge -> faces it borders:
+  edge 4: faces [0, 3]
+  edge 5: faces [0, 2]
+  edge 6: faces [1, 2]
+  edge 7: faces [1, 3]

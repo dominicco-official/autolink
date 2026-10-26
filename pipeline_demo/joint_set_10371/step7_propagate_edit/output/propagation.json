@@ -1,0 +1,58 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "radius": 3.25
+    }
+  },
+  "propagated_to_part1": [
+    {
+      "relation": "part1.hole_radius = part2.radius + 0.000000",
+      "part1_param": "hole_radius",
+      "old": 2.5,
+      "new": 3.25
+    }
+  ],
+  "part1_params_after": {
+    "outer_radius": 15.15,
+    "rim_inner_radius": 14.21267,
+    "hole_radius": 3.25,
+    "height": 3.5,
+    "web_offset": 0.5,
+    "web_thickness": 2.5
+  },
+  "part2_params_after": {
+    "radius": 3.25,
+    "length": 41.5
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        4.520576024624745e-09,
+        -2.299959355354303e-13,
+        0.9999999999999998,
+        2.614976174472452e-10
+      ],
+      [
+        2.3773460684933786e-13,
+        -0.9999999999999996,
+        -2.299959366101276e-13,
+        2.999999998589813
+      ],
+      [
+        0.9999999999999998,
+        2.3773460788905194e-13,
+        -4.520575691557838e-09,
+        -2.708181267032953e-10
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.0,
+    "contact_fraction": 0.0274
+  }
+}

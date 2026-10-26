@@ -1,0 +1,25 @@
+{
+  "joint_set": "joint_set_04039",
+  "part": 1,
+  "body": "30297_fd93a92a_0015_1",
+  "provider": "mock",
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "mock",
+      "model": null,
+      "seconds": 0.3,
+      "pass": false,
+      "report": "PASS: face count equal -> cadquery=6, dataset=6\nFAIL: every dataset face matched (type, position, radius) -> matched=0, of=6\nFAIL: volume within 0.1% -> cadquery=1, dataset=0.356273\nFAIL: bounding box within 1e-4 cm -> max_abs_err=0.5\nFAIL: mean surface distance to dataset mesh < max(0.01 cm, 0.5% of bbox diagonal) -> chamfer_cm=0.420748, tolerance_cm=0.01\nUnmatched dataset faces (type, radius, centroid):\n  dataset face 0 CYLINDER r=0.3975100000000001 centroid=[0.0, 0.0397, 0.0]\n  dataset face 1 CYLINDER r=0.714375 centroid=[0.0, 0.3966, 0.0]\n  dataset face 2 PLANE r=None centroid=[0.0, 0.0794, 0.0]\n  dataset face 3 CYLINDER r=0.79375 centroid=[0.0, 0.3569, 0.0]\n  dataset face 4 PLANE r=None centroid=[0.0, 0.7137, 0.0]\n  dataset face 5 PLANE r=None centroid=[0.0, 0.0, 0.0]\nFaces your script produced (type, radius, centroid, area):\n  cq face 0 PLANE r=0 centroid=[-0.5, 0.0, 0.0] area=1\n  cq face 1 PLANE r=0 centroid=[0.5, 0.0, 0.0] area=1\n  cq face 2 PLANE r=0 centroid=[0.0, -0.5, 0.0] area=1\n  cq face 3 PLANE r=0 centroid=[0.0, 0.5, 0.0] area=1\n  cq face 4 PLANE r=0 centroid=[0.0, 0.0, -0.5] area=1\n  cq face 5 PLANE r=0 centroid=[0.0, 0.0, 0.5] area=1"
+    },
+    {
+      "attempt": 2,
+      "provider": "mock",
+      "model": null,
+      "seconds": 0.8,
+      "pass": true,
+      "report": "PASS: face count equal -> cadquery=6, dataset=6\nPASS: every dataset face matched (type, position, radius) -> matched=6, of=6\nPASS: volume within 0.1% -> cadquery=0.356273, dataset=0.356273\nPASS: bounding box within 1e-4 cm -> max_abs_err=0\nPASS: mean surface distance to dataset mesh < max(0.01 cm, 0.5% of bbox diagonal) -> chamfer_cm=0.00209017, tolerance_cm=0.0117789"
+    }
+  ],
+  "success": true
+}

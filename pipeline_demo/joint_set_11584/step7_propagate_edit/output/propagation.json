@@ -1,0 +1,67 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "radius": 0.325
+    }
+  },
+  "propagated_to_part1": [
+    {
+      "relation": "part1.hole_radius = part2.radius + 0.000000",
+      "part1_param": "hole_radius",
+      "old": 0.25,
+      "new": 0.32500000000000007
+    }
+  ],
+  "part1_params_after": {
+    "disc_radius": 2.5,
+    "thickness": 0.8,
+    "tab_width": 1.2,
+    "tab_height": 1.5,
+    "tab_radius": 0.6,
+    "hole_radius": 0.32500000000000007,
+    "hole_chamfer": 0.05,
+    "drill_radius": 0.12645,
+    "drill_dir_y": -0.998,
+    "drill_dir_z": -0.06,
+    "drill_pt_y": 1.624145,
+    "drill_pt_z": 0.008619
+  },
+  "part2_params_after": {
+    "radius": 0.325,
+    "length": 3.5,
+    "chamfer": 0.05,
+    "flat_y": 0.2,
+    "flat_length": 0.8
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        4.0605296902640475e-12,
+        -0.08501145255060177,
+        -0.9963799741741286,
+        0.12575938729946073
+      ],
+      [
+        -4.7190411300856994e-11,
+        0.9963799741741284,
+        -0.08501145255060177,
+        -1.4828551032596333
+      ],
+      [
+        1.0000000000000002,
+        4.736478570466218e-11,
+        3.4083846855992306e-14,
+        -2.6999999973370588
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.0176,
+    "contact_fraction": 0.0044
+  }
+}

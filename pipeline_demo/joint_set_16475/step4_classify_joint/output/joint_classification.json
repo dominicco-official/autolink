@@ -1,0 +1,30 @@
+{
+  "joint_set": "joint_set_16475",
+  "part1_face": 4,
+  "part1_type": "PLANE",
+  "part1_radius": null,
+  "part2_face": 2,
+  "part2_type": "PLANE",
+  "part2_radius": null,
+  "lookup_key": "PLANE|PLANE",
+  "rule": {
+    "name": "flush_mate",
+    "constraints": [
+      "coplanar, normals opposed",
+      "face centers coincide"
+    ],
+    "free_dof": [
+      "spin about normal"
+    ],
+    "resolve_slide": "align face centers",
+    "radius_relation": null
+  },
+  "edge_promotion": [],
+  "radius_difference": null,
+  "fit_label_geometric": null,
+  "where_an_LLM_or_VLM_could_add_value": [
+    "name the functional intent (press fit vs clearance vs sliding)",
+    "handle pairs not in the rule table (torus, nurbs, mixed)",
+    "break ties when Step 5 contact scores are close"
+  ]
+}

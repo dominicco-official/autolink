@@ -1,0 +1,39 @@
+{
+  "joint_set": "joint_set_01324",
+  "driver_part": 2,
+  "dependent_part": 1,
+  "relations": [
+    {
+      "kind": "concentric_clearance",
+      "source": "step 4 joint rule",
+      "faces": {
+        "part1": 0,
+        "part2": 5
+      },
+      "equation": "part1.inner_radius = part2.shaft_radius + 0.003650",
+      "dependent": {
+        "part": 1,
+        "param": "inner_radius"
+      },
+      "driver": {
+        "part": 2,
+        "param": "shaft_radius"
+      },
+      "constant": 0.0036500000000305177
+    },
+    {
+      "kind": "pose_constraint",
+      "source": "step 5",
+      "faces": {
+        "part1": 0,
+        "part2": 5,
+        "option": [
+          2,
+          1,
+          "opposed"
+        ]
+      },
+      "equation": "concentric + shoulders flush (re-solved after every edit)"
+    }
+  ]
+}

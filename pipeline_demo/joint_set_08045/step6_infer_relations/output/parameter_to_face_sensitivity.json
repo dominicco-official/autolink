@@ -1,0 +1,47 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "1": {
+      "radius": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5
+      }
+    }
+  },
+  "part2": {
+    "4": {
+      "rod_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "rod_length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "6": {
+      "rod_length": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "2": {
+      "head_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "head_length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "head_length": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "1": {
+      "head_length": {
+        "d_position/d_param": 0.5
+      },
+      "bore_radius": {
+        "d_radius/d_param": 1.0
+      }
+    }
+  }
+}

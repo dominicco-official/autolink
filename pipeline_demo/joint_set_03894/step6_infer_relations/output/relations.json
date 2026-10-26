@@ -1,0 +1,39 @@
+{
+  "joint_set": "joint_set_03894",
+  "driver_part": 2,
+  "dependent_part": 1,
+  "relations": [
+    {
+      "kind": "concentric_clearance",
+      "source": "step 4 joint rule",
+      "faces": {
+        "part1": 1,
+        "part2": 2
+      },
+      "equation": "part1.inner_radius = part2.outer_radius + 0.000000",
+      "dependent": {
+        "part": 1,
+        "param": "inner_radius"
+      },
+      "driver": {
+        "part": 2,
+        "param": "outer_radius"
+      },
+      "constant": 0.0
+    },
+    {
+      "kind": "pose_constraint",
+      "source": "step 5",
+      "faces": {
+        "part1": 1,
+        "part2": 2,
+        "option": [
+          0,
+          3,
+          "parallel"
+        ]
+      },
+      "equation": "concentric + shoulders flush (re-solved after every edit)"
+    }
+  ]
+}

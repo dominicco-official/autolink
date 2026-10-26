@@ -1,0 +1,41 @@
+{
+  "rule": "discard overlap > 1%, then pick max contact",
+  "candidates": [
+    {
+      "option": null,
+      "constraints_given_to_solver": [
+        "part2 Fixed",
+        "part1 plane 0 Plane part2 plane 6 (flush, centers coincide)"
+      ],
+      "overlap_fraction": 0.0,
+      "contact_fraction": 0.2144,
+      "part1_transform_4x4": [
+        [
+          0.0,
+          -1.3103160743132741e-18,
+          -1.0,
+          -12.699999988425228
+        ],
+        [
+          -4.319494613064402e-18,
+          1.0,
+          -1.3103160743132745e-18,
+          8.604245641494498e-17
+        ],
+        [
+          1.0,
+          4.319494613064402e-18,
+          0.0,
+          -2.6888267629696506e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "chosen_option": null
+}

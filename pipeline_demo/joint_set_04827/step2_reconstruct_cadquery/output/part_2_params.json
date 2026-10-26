@@ -1,0 +1,12 @@
+{
+  "shaft_radius": 0.170825,
+  "shaft_start": -0.2,
+  "cone_start": 0.6,
+  "cone_small_radius": 0.2,
+  "head_radius": 0.3,
+  "head_start": 0.7,
+  "head_end": 0.8,
+  "slot_length": 0.5,
+  "slot_width": 0.06,
+  "slot_depth": 0.05
+}

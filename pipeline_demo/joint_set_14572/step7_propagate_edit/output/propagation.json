@@ -1,0 +1,77 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "end_hole_radius": 0.10322,
+      "end_radius": 0.257985
+    }
+  },
+  "propagated_to_part1": [
+    {
+      "relation": "part1.bottom_pin_radius = part2.end_hole_radius + 0.000000",
+      "part1_param": "bottom_pin_radius",
+      "old": 0.0794,
+      "new": 0.10322000000000023
+    },
+    {
+      "relation": "part1.end_radius = part2.end_radius",
+      "part1_param": "end_radius",
+      "old": 0.1984,
+      "new": 0.257985
+    }
+  ],
+  "part1_params_after": {
+    "hub_radius": 0.2381,
+    "hub_height": 0.3968,
+    "top_pin_radius": 0.11905,
+    "top_pin_top_y": 2.6987,
+    "arm_thickness": 0.1984,
+    "end_x": 1.299751,
+    "end_radius": 0.257985,
+    "bottom_pin_radius": 0.10322000000000023,
+    "bottom_pin_length": 0.3175
+  },
+  "part2_params_after": {
+    "hub_radius": 0.7144,
+    "bore_radius": 0.55565,
+    "hub_height": 0.4763,
+    "arm_width": 0.3968,
+    "block_end_x": -1.024,
+    "chamfer": 0.1,
+    "web_bottom_y": 0.1588,
+    "web_top_y": 0.3175,
+    "end_x": -8.901883,
+    "end_radius": 0.257985,
+    "end_hole_radius": 0.10322
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        -0.6858747579796145,
+        -5.26874232922216e-10,
+        0.7277196000977337,
+        -8.010416592739587
+      ],
+      [
+        5.241271360329057e-10,
+        -1.0,
+        -2.3001807333843683e-10,
+        0.15879999543800308
+      ],
+      [
+        0.7277196000977337,
+        2.2365399945229904e-10,
+        0.6858747579796143,
+        -0.9458542801026151
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.0,
+    "contact_fraction": 0.0752
+  }
+}

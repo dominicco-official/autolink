@@ -1,0 +1,100 @@
+{
+  "model": "Claude (Fable 5.1) in the Kiro chat session, acting as the step-2 LLM; verifier = pipeline/verify_recon.py",
+  "easy_set": {
+    "joint_set_01324": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_03894": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_04039": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_07243": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_08045": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_10371": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_10420": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_11051": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_13082": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_16475": {
+      "part_1": 1,
+      "part_2": 1
+    }
+  },
+  "hard_set": {
+    "joint_set_03531": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_17464": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_04827": {
+      "part_1": 2,
+      "part_2": 1,
+      "notes": "part 1: first script put the r=0.05 fillets along the axis; they are on the end-face edges"
+    },
+    "joint_set_08709": {
+      "part_1": 2,
+      "part_2": "FAIL after 3",
+      "notes": "part 1: revolved about the wrong axis once. part 2 (20-face slotted lug bracket): 17/20 faces match after 3 attempts; the round end is an off-tangent 174.9-degree arc and its exact start angle was not recovered"
+    },
+    "joint_set_13342": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_09176": {
+      "part_1": 1,
+      "part_2": 1
+    },
+    "joint_set_14572": {
+      "part_1": 3,
+      "part_2": 1,
+      "notes": "part 1: hub cylinder and bottom plane were split by the union; fixed by closing the arm outline with a chord inside the hub"
+    },
+    "joint_set_14090": {
+      "part_1": "not attempted",
+      "part_2": "not attempted",
+      "notes": "16-face grooved ring (tori/cones split by planes) + 19-face mate; skipped for effort budget"
+    },
+    "joint_set_12396": {
+      "part_1": 1,
+      "part_2": 1,
+      "notes": "part 1 needed a verifier change: a cone with ~zero taper is classified CYLINDER by OCC"
+    },
+    "joint_set_11584": {
+      "part_1": 2,
+      "part_2": 2,
+      "notes": "part 1: cross-drill went past the hole axis (volume 0.12% off); part 2: flats split the chamfer cones at the surface seam, fixed by rotating the seam into the cut"
+    }
+  },
+  "verifier_fixes_during_hard_set": [
+    "centroid tolerance now 0.1% of bbox diagonal (min 0.002 cm)",
+    "trimmed cylinder faces via BRepAdaptor_Surface",
+    "surface-distance sampling chunked (memory)",
+    "tessellation deflection scales with part size",
+    "CONE<->CYLINDER compatible when taper ~0"
+  ]
+}

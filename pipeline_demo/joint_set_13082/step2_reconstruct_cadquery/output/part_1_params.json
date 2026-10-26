@@ -1,0 +1,19 @@
+{
+  "base_radius": 7.0,
+  "base_height": 2.0,
+  "shoulder_fillet": 0.8,
+  "cone_r_bottom": 4.905862,
+  "cone_z_bottom": 2.692192,
+  "cone_r_top": 3.315433,
+  "cone_z_top": 14.386524,
+  "lip_fillet": 0.1,
+  "lip_z": 14.5,
+  "neck_radius": 3.5,
+  "top_z": 18.5,
+  "bore_radius": 2.5,
+  "bore_bottom_z": 12.961723,
+  "inner_cone_r_bottom": 4.221994,
+  "inner_floor_z": 0.3,
+  "recess_fillet": 0.1,
+  "recess_radius": 5.0
+}

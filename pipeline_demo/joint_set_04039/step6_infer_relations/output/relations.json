@@ -1,0 +1,57 @@
+{
+  "joint_set": "joint_set_04039",
+  "driver_part": 2,
+  "dependent_part": 1,
+  "relations": [
+    {
+      "kind": "concentric_clearance",
+      "source": "step 4 joint rule",
+      "faces": {
+        "part1": 1,
+        "part2": 2
+      },
+      "equation": "part1.bore_radius = part2.neck_radius + 0.000635",
+      "dependent": {
+        "part": 1,
+        "param": "bore_radius"
+      },
+      "driver": {
+        "part": 2,
+        "param": "neck_radius"
+      },
+      "constant": 0.0006349999999999412
+    },
+    {
+      "kind": "coaxial_equal_radius",
+      "source": "scan of assembled model: coaxial cylinders with equal radius",
+      "faces": {
+        "part1": 0,
+        "part2": 0
+      },
+      "equation": "part1.hole_radius = part2.bore_radius",
+      "dependent": {
+        "part": 1,
+        "param": "hole_radius"
+      },
+      "driver": {
+        "part": 2,
+        "param": "bore_radius"
+      },
+      "constant": 0.0
+    },
+    {
+      "kind": "pose_constraint",
+      "source": "step 5",
+      "faces": {
+        "part1": 1,
+        "part2": 2,
+        "option": [
+          2,
+          6,
+          "opposed"
+        ]
+      },
+      "equation": "concentric + shoulders flush (re-solved after every edit)"
+    }
+  ]
+}

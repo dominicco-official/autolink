@@ -1,0 +1,105 @@
+{
+  "body": "51791_b6580a7f_0007_2",
+  "PASS": true,
+  "checks": [
+    {
+      "check": "face count equal",
+      "cadquery": 4,
+      "dataset": 4,
+      "pass": true
+    },
+    {
+      "check": "every dataset face matched (type, position, radius)",
+      "matched": 4,
+      "of": 4,
+      "pass": true
+    },
+    {
+      "check": "volume within 0.1%",
+      "cadquery": 10.602875205865551,
+      "dataset": 10.602875205865397,
+      "pass": true
+    },
+    {
+      "check": "bounding box within 1e-4 cm",
+      "max_abs_err": 0.0,
+      "pass": true
+    },
+    {
+      "check": "mean surface distance to dataset mesh < max(0.01 cm, 0.5% of bbox diagonal)",
+      "chamfer_cm": 0.004336236957056665,
+      "tolerance_cm": 0.02345207879911715,
+      "pass": true
+    }
+  ],
+  "face_matching": [
+    {
+      "dataset_face": 0,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 0,
+      "centroid_distance": 2.4717755453523496e-16,
+      "area_dataset": 5.3014376029327765,
+      "area_cadquery": 5.301437602932776,
+      "area_rel_err": 1.6753539062853092e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 1,
+      "type": "CYLINDER",
+      "radius": 0.7499999999999999,
+      "matched_cq_face": 3,
+      "centroid_distance": 2.459200733254738e-16,
+      "area_dataset": 9.424777960769378,
+      "area_cadquery": 9.42477796076938,
+      "area_rel_err": 1.8847731445709732e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 2,
+      "type": "CYLINDER",
+      "radius": 1.5,
+      "matched_cq_face": 1,
+      "centroid_distance": 4.484612375160356e-16,
+      "area_dataset": 18.84955592153876,
+      "area_cadquery": 18.84955592153876,
+      "area_rel_err": 0.0,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 3,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 2,
+      "centroid_distance": 2.456180956679723e-16,
+      "area_dataset": 5.3014376029327765,
+      "area_cadquery": 5.301437602932778,
+      "area_rel_err": 3.3507078125706183e-16,
+      "MATCH": true
+    }
+  ],
+  "side_table_dataset_face_to_cadquery_face": {
+    "0": 0,
+    "1": 3,
+    "2": 1,
+    "3": 2
+  },
+  "face_adjacency_from_dataset": {
+    "0": [
+      1,
+      2
+    ],
+    "1": [
+      0,
+      3
+    ],
+    "2": [
+      0,
+      3
+    ],
+    "3": [
+      1,
+      2
+    ]
+  }
+}

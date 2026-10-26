@@ -1,0 +1,23 @@
+{
+  "thickness": 1.3,
+  "left_y": 21.0,
+  "bottom_z": 83.0,
+  "hole_y1": 22.1,
+  "hole_y2": 25.6,
+  "hole_z": 85.1,
+  "end_radius": 1.1,
+  "hole_radius": 0.4,
+  "end_arc_deg": 174.886,
+  "end_arc_start_deg": 88.77,
+  "foot_y": 23.7,
+  "foot_z": 84.0,
+  "fillet_radius": 0.5,
+  "slot_x0": 0.4,
+  "slot_width": 0.5,
+  "slot_start_y": 24.5002,
+  "pin_x": 0.65,
+  "pin_y": 22.10006,
+  "pin_tip_z": 77.9,
+  "pin_radius": 0.591675,
+  "pin_chamfer": 0.091675
+}

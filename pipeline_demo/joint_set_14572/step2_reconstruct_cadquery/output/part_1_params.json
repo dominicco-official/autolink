@@ -1,0 +1,11 @@
+{
+  "hub_radius": 0.2381,
+  "hub_height": 0.3968,
+  "top_pin_radius": 0.11905,
+  "top_pin_top_y": 2.6987,
+  "arm_thickness": 0.1984,
+  "end_x": 1.299751,
+  "end_radius": 0.1984,
+  "bottom_pin_radius": 0.0794,
+  "bottom_pin_length": 0.3175
+}

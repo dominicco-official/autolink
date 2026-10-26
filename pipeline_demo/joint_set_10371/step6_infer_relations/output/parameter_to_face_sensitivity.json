@@ -1,0 +1,79 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "5": {
+      "outer_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "2": {
+      "rim_inner_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      },
+      "web_offset": {
+        "d_position/d_param": 0.5
+      },
+      "web_thickness": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "0": {
+      "rim_inner_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "web_offset": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "4": {
+      "hole_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "web_offset": {
+        "d_position/d_param": 1.0
+      },
+      "web_thickness": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "7": {
+      "height": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "3": {
+      "web_offset": {
+        "d_position/d_param": 1.0
+      },
+      "web_thickness": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "1": {
+      "web_offset": {
+        "d_position/d_param": 1.0
+      }
+    }
+  },
+  "part2": {
+    "0": {
+      "radius": {
+        "d_radius/d_param": 1.0
+      },
+      "length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "2": {
+      "length": {
+        "d_position/d_param": 1.0
+      }
+    }
+  }
+}

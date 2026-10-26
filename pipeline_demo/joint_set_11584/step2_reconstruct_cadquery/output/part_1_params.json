@@ -1,0 +1,14 @@
+{
+  "disc_radius": 2.5,
+  "thickness": 0.8,
+  "tab_width": 1.2,
+  "tab_height": 1.5,
+  "tab_radius": 0.6,
+  "hole_radius": 0.25,
+  "hole_chamfer": 0.05,
+  "drill_radius": 0.12645,
+  "drill_dir_y": -0.998,
+  "drill_dir_z": -0.06,
+  "drill_pt_y": 1.624145,
+  "drill_pt_z": 0.008619
+}

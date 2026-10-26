@@ -1,0 +1,185 @@
+{
+  "body": "137295_a2385b57_0000_2",
+  "PASS": true,
+  "checks": [
+    {
+      "check": "face count equal",
+      "cadquery": 9,
+      "dataset": 9,
+      "pass": true
+    },
+    {
+      "check": "every dataset face matched (type, position, radius)",
+      "matched": 9,
+      "of": 9,
+      "pass": true
+    },
+    {
+      "check": "volume within 0.1%",
+      "cadquery": 97.69365912746785,
+      "dataset": 97.69365912746781,
+      "pass": true
+    },
+    {
+      "check": "bounding box within 1e-4 cm",
+      "max_abs_err": 5.140024184058234e-07,
+      "pass": true
+    },
+    {
+      "check": "mean surface distance to dataset mesh < max(0.01 cm, 0.5% of bbox diagonal)",
+      "chamfer_cm": 0.013113704871769556,
+      "tolerance_cm": 0.07420411174591339,
+      "pass": true
+    }
+  ],
+  "face_matching": [
+    {
+      "dataset_face": 0,
+      "type": "CYLINDER",
+      "radius": 2.5,
+      "matched_cq_face": 1,
+      "centroid_distance": 6.051647447915015e-07,
+      "area_dataset": 39.269908169872416,
+      "area_cadquery": 39.269908169872416,
+      "area_rel_err": 0.0,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 1,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 0,
+      "centroid_distance": 6.051647453156288e-07,
+      "area_dataset": 9.156460136513408,
+      "area_cadquery": 9.15646013651341,
+      "area_rel_err": 1.9400039020719755e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 2,
+      "type": "CYLINDER",
+      "radius": 1.8263100000000003,
+      "matched_cq_face": 8,
+      "centroid_distance": 6.051647451433352e-07,
+      "area_dataset": 51.63769871259818,
+      "area_cadquery": 51.63769871259818,
+      "area_rel_err": 0.0,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 3,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 7,
+      "centroid_distance": 6.051647452240342e-07,
+      "area_dataset": 9.156460136513408,
+      "area_cadquery": 9.156460136513411,
+      "area_rel_err": 3.880007804143951e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 4,
+      "type": "CYLINDER",
+      "radius": 2.5,
+      "matched_cq_face": 6,
+      "centroid_distance": 6.05164744991431e-07,
+      "area_dataset": 7.853981633974484,
+      "area_cadquery": 7.853981633974484,
+      "area_rel_err": 0.0,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 5,
+      "type": "TORUS",
+      "radius": null,
+      "matched_cq_face": 5,
+      "centroid_distance": 6.051647447956931e-07,
+      "area_dataset": 13.233610274839126,
+      "area_cadquery": 13.233610274839146,
+      "area_rel_err": 1.4765377570891395e-15,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 6,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 4,
+      "centroid_distance": 6.051647453427093e-07,
+      "area_dataset": 35.342917352885166,
+      "area_cadquery": 35.34291735288518,
+      "area_rel_err": 4.020849375084743e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 7,
+      "type": "TORUS",
+      "radius": null,
+      "matched_cq_face": 3,
+      "centroid_distance": 6.051647451623232e-07,
+      "area_dataset": 47.55481245849185,
+      "area_cadquery": 47.55481245849191,
+      "area_rel_err": 1.1953242147768684e-15,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 8,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 2,
+      "centroid_distance": 6.051647455468304e-07,
+      "area_dataset": 43.9822971502571,
+      "area_cadquery": 43.9822971502571,
+      "area_rel_err": 0.0,
+      "MATCH": true
+    }
+  ],
+  "side_table_dataset_face_to_cadquery_face": {
+    "0": 1,
+    "1": 0,
+    "2": 8,
+    "3": 7,
+    "4": 6,
+    "5": 5,
+    "6": 4,
+    "7": 3,
+    "8": 2
+  },
+  "face_adjacency_from_dataset": {
+    "0": [
+      1,
+      8
+    ],
+    "1": [
+      0,
+      2
+    ],
+    "2": [
+      1,
+      3
+    ],
+    "3": [
+      2,
+      4
+    ],
+    "4": [
+      3,
+      5
+    ],
+    "5": [
+      4,
+      6
+    ],
+    "6": [
+      5,
+      7
+    ],
+    "7": [
+      6,
+      8
+    ],
+    "8": [
+      0,
+      7
+    ]
+  }
+}

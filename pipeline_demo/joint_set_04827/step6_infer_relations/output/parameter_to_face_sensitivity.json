@@ -1,0 +1,379 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "12": {
+      "inradius": {
+        "d_position/d_param": 1.0
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "end_fillet": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "13": {
+      "inradius": {
+        "d_position/d_param": 1.0
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "end_fillet": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "2": {
+      "inradius": {
+        "d_position/d_param": 0.9969
+      },
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "end_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5144
+      }
+    },
+    "11": {
+      "inradius": {
+        "d_position/d_param": 1.0
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "end_fillet": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "6": {
+      "inradius": {
+        "d_position/d_param": 1.0
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "end_fillet": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "inradius": {
+        "d_position/d_param": 0.9969
+      },
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "end_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5144
+      }
+    },
+    "1": {
+      "inradius": {
+        "d_position/d_param": 0.9969
+      },
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "end_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5144
+      }
+    },
+    "8": {
+      "inradius": {
+        "d_position/d_param": 1.0
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "end_fillet": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "7": {
+      "inradius": {
+        "d_position/d_param": 1.0
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      },
+      "end_fillet": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "4": {
+      "inradius": {
+        "d_position/d_param": 0.9969
+      },
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "end_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5144
+      }
+    },
+    "0": {
+      "inradius": {
+        "d_position/d_param": 0.9969
+      },
+      "bore_radius": {
+        "d_position/d_param": 27.3847
+      },
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "end_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5144
+      }
+    },
+    "5": {
+      "inradius": {
+        "d_position/d_param": 0.9969
+      },
+      "bore_radius": {
+        "d_position/d_param": 27.3847
+      },
+      "thickness": {
+        "d_position/d_param": 1.0
+      },
+      "end_fillet": {
+        "d_radius/d_param": 1.0,
+        "d_position/d_param": 0.5144
+      }
+    },
+    "10": {
+      "bore_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "thickness": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "9": {
+      "thickness": {
+        "d_position/d_param": 1.0
+      }
+    }
+  },
+  "part2": {
+    "17": {
+      "shaft_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "shaft_start": {
+        "d_position/d_param": 0.5
+      },
+      "cone_start": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "18": {
+      "shaft_start": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "14": {
+      "cone_start": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "13": {
+      "cone_start": {
+        "d_position/d_param": 0.4667
+      },
+      "cone_small_radius": {
+        "d_position/d_param": 0.0392
+      },
+      "head_radius": {
+        "d_position/d_param": 0.0261
+      },
+      "head_start": {
+        "d_position/d_param": 0.5333
+      }
+    },
+    "15": {
+      "head_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "head_start": {
+        "d_position/d_param": 0.5
+      },
+      "head_end": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "16": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "7": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.5
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "8": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.25
+      },
+      "slot_width": {
+        "d_position/d_param": 0.559
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "9": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.25
+      },
+      "slot_width": {
+        "d_position/d_param": 0.559
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "10": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.5
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "11": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.25
+      },
+      "slot_width": {
+        "d_position/d_param": 0.559
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "0": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.25
+      },
+      "slot_width": {
+        "d_position/d_param": 0.559
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "1": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.5
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "2": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.25
+      },
+      "slot_width": {
+        "d_position/d_param": 0.559
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.25
+      },
+      "slot_width": {
+        "d_position/d_param": 0.559
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "4": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.5
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "5": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.25
+      },
+      "slot_width": {
+        "d_position/d_param": 0.559
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "6": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_length": {
+        "d_position/d_param": 0.25
+      },
+      "slot_width": {
+        "d_position/d_param": 0.559
+      },
+      "slot_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "12": {
+      "head_end": {
+        "d_position/d_param": 1.0
+      },
+      "slot_depth": {
+        "d_position/d_param": 1.0
+      }
+    }
+  }
+}

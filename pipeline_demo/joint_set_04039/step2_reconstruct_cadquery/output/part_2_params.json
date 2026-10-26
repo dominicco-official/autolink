@@ -1,0 +1,12 @@
+{
+  "bore_radius": 0.39751,
+  "bore_depth": 2.54,
+  "neck_radius": 0.71374,
+  "neck_length": 0.635,
+  "waist_x": 1.5875,
+  "waist_r": 1.22428,
+  "waist_arc_r": 2.052388242468349,
+  "belly_arc_r": 2.106098255765155,
+  "length": 4.2799,
+  "tip_radius": 0.5969
+}

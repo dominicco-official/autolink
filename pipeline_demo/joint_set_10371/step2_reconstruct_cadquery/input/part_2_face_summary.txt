@@ -1,0 +1,13 @@
+BODY 41729_b5092135_0006_1
+faces=3 edges=2 volume=814.850595 area=691.150384
+bbox min=(-2.500000, 0.000000, -2.500000) max=(2.500000, 41.500000, 2.500000)
+
+face  0 Cylinder  area=651.880476 centroid=(0.000000, 20.750000, 0.000000) normal=(0.000, 0.000, -1.000) radius=2.500000 axis=(0.000, 1.000, 0.000) origin=(0.000000, 20.750000, 0.000000)
+face  1 Plane     area=19.634954 centroid=(-0.000000, 0.000000, 0.000000) normal=(0.000, -1.000, -0.000)
+face  2 Plane     area=19.634954 centroid=(-0.000000, 41.500000, 0.000000) normal=(0.000, 1.000, 0.000)
+edge  3 Circle3D  length=15.707963 Convex radius=2.500000 center=(0.000000, 0.000000, 0.000000)
+edge  4 Circle3D  length=15.707963 Convex radius=2.500000 center=(0.000000, 41.500000, 0.000000)
+
+edge -> faces it borders:
+  edge 3: faces [0, 1]
+  edge 4: faces [0, 2]

@@ -1,0 +1,87 @@
+{
+  "body": "56488_7a606724_0007_2",
+  "PASS": true,
+  "checks": [
+    {
+      "check": "face count equal",
+      "cadquery": 3,
+      "dataset": 3,
+      "pass": true
+    },
+    {
+      "check": "every dataset face matched (type, position, radius)",
+      "matched": 3,
+      "of": 3,
+      "pass": true
+    },
+    {
+      "check": "volume within 0.1%",
+      "cadquery": 0.01468074984577071,
+      "dataset": 0.014680749845770107,
+      "pass": true
+    },
+    {
+      "check": "bounding box within 1e-4 cm",
+      "max_abs_err": 4.851859092269706e-07,
+      "pass": true
+    },
+    {
+      "check": "mean surface distance to dataset mesh < max(0.01 cm, 0.5% of bbox diagonal)",
+      "chamfer_cm": 0.000630068251401252,
+      "tolerance_cm": 0.01,
+      "pass": true
+    }
+  ],
+  "face_matching": [
+    {
+      "dataset_face": 0,
+      "type": "CYLINDER",
+      "radius": 0.09667500000000001,
+      "matched_cq_face": 0,
+      "centroid_distance": 4.957384413977941e-07,
+      "area_dataset": 0.3037134697857932,
+      "area_cadquery": 0.3037134697857933,
+      "area_rel_err": 1.8277474249136668e-16,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 1,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 2,
+      "centroid_distance": 4.957384413977941e-07,
+      "area_dataset": 0.02936149969154157,
+      "area_cadquery": 0.0293614996915412,
+      "area_rel_err": 1.264345580978551e-14,
+      "MATCH": true
+    },
+    {
+      "dataset_face": 2,
+      "type": "PLANE",
+      "radius": null,
+      "matched_cq_face": 1,
+      "centroid_distance": 4.957384412643074e-07,
+      "area_dataset": 0.02936149969154157,
+      "area_cadquery": 0.0293614996915412,
+      "area_rel_err": 1.264345580978551e-14,
+      "MATCH": true
+    }
+  ],
+  "side_table_dataset_face_to_cadquery_face": {
+    "0": 0,
+    "1": 2,
+    "2": 1
+  },
+  "face_adjacency_from_dataset": {
+    "0": [
+      1,
+      2
+    ],
+    "1": [
+      0
+    ],
+    "2": [
+      0
+    ]
+  }
+}

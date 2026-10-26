@@ -1,0 +1,58 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "shaft_radius": 0.190255
+    }
+  },
+  "propagated_to_part1": [
+    {
+      "relation": "part1.inner_radius = part2.shaft_radius + 0.003650",
+      "part1_param": "inner_radius",
+      "old": 0.15,
+      "new": 0.19390500000003053
+    }
+  ],
+  "part1_params_after": {
+    "inner_radius": 0.19390500000003053,
+    "outer_radius": 0.25,
+    "thickness": 0.3
+  },
+  "part2_params_after": {
+    "shaft_radius": 0.190255,
+    "collar_radius": 0.2,
+    "length": 2.2,
+    "collar_start": 0.5,
+    "collar_width": 0.1
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        -0.03656155597957822,
+        1.6619760026901874e-10,
+        -0.9993314028010688,
+        4.666857704460706
+      ],
+      [
+        -3.622010305471566e-10,
+        1.0,
+        1.795602870281759e-10,
+        3.604059982435808
+      ],
+      [
+        0.9993314028010688,
+        3.6852386743857263e-10,
+        -0.03656155597957822,
+        0.2362475809864988
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.0,
+    "contact_fraction": 0.015
+  }
+}

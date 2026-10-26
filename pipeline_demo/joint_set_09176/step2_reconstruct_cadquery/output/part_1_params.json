@@ -1,0 +1,11 @@
+{
+  "rod_radius": 0.104403,
+  "rod_bottom_y": 1.35,
+  "rod_top_y": 7.3,
+  "tip_fillet": 0.1,
+  "tab_thickness": 0.06,
+  "tab_width": 0.2,
+  "eye_center_y": 7.5,
+  "eye_outer_radius": 0.1,
+  "eye_hole_radius": 0.05
+}

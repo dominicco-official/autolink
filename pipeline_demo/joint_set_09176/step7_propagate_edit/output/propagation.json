@@ -1,0 +1,64 @@
+{
+  "edit": {
+    "part": 2,
+    "changes": {
+      "inner_radius": 0.135724
+    }
+  },
+  "propagated_to_part1": [
+    {
+      "relation": "part1.rod_radius = part2.inner_radius + 0.000000",
+      "part1_param": "rod_radius",
+      "old": 0.104403,
+      "new": 0.135724
+    }
+  ],
+  "part1_params_after": {
+    "rod_radius": 0.135724,
+    "rod_bottom_y": 1.35,
+    "rod_top_y": 7.3,
+    "tip_fillet": 0.1,
+    "tab_thickness": 0.06,
+    "tab_width": 0.2,
+    "eye_center_y": 7.5,
+    "eye_outer_radius": 0.1,
+    "eye_hole_radius": 0.05
+  },
+  "part2_params_after": {
+    "inner_radius": 0.135724,
+    "outer_radius": 0.15,
+    "y_start": 1.35,
+    "length": 5.99,
+    "cut_offset": 0.050495
+  },
+  "re_solved_pose": {
+    "part1_transform_4x4": [
+      [
+        -2.220446049250313e-16,
+        -0.8578077984894638,
+        -0.5139706030996903,
+        0.6600414044427981
+      ],
+      [
+        0.9999999999999999,
+        0.0,
+        -1.6653345369377348e-16,
+        8.089999999999996
+      ],
+      [
+        1.1102230246251565e-16,
+        -0.5139706030996904,
+        0.8578077984894639,
+        1.608756481763731
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overlap_fraction": 0.0016,
+    "contact_fraction": 0.002
+  }
+}

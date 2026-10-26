@@ -1,0 +1,7 @@
+{
+  "disc_radius": 3.15,
+  "disc_thickness": 0.3,
+  "chamfer": 0.05,
+  "pin_radius": 0.25,
+  "pin_length": 1.9
+}

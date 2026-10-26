@@ -1,0 +1,76 @@
+{
+  "CYLINDER|CYLINDER": {
+    "name": "concentric",
+    "constraints": [
+      "coaxial"
+    ],
+    "free_dof": [
+      "slide along axis",
+      "spin about axis"
+    ],
+    "resolve_slide": "shoulder search (step 5)",
+    "radius_relation": "r1 = r2 + clearance"
+  },
+  "PLANE|PLANE": {
+    "name": "flush_mate",
+    "constraints": [
+      "coplanar, normals opposed",
+      "face centers coincide"
+    ],
+    "free_dof": [
+      "spin about normal"
+    ],
+    "resolve_slide": "align face centers",
+    "radius_relation": null
+  },
+  "CYLINDER|PLANE": {
+    "name": "axis_normal_to_plane",
+    "constraints": [
+      "cylinder axis parallel to plane normal"
+    ],
+    "free_dof": [
+      "slide in plane (2)",
+      "slide along axis",
+      "spin"
+    ],
+    "resolve_slide": "shoulder search",
+    "radius_relation": null
+  },
+  "PLANE|CYLINDER": {
+    "name": "axis_normal_to_plane",
+    "constraints": [
+      "cylinder axis parallel to plane normal"
+    ],
+    "free_dof": [
+      "slide in plane (2)",
+      "slide along axis",
+      "spin"
+    ],
+    "resolve_slide": "shoulder search",
+    "radius_relation": null
+  },
+  "CONE|CONE": {
+    "name": "concentric_taper",
+    "constraints": [
+      "coaxial",
+      "equal half-angle"
+    ],
+    "free_dof": [
+      "spin about axis"
+    ],
+    "resolve_slide": "cone surfaces touch",
+    "radius_relation": "equal half-angle"
+  },
+  "CIRCLE|CIRCLE": {
+    "name": "concentric_edges",
+    "constraints": [
+      "coaxial",
+      "centers coincide"
+    ],
+    "free_dof": [
+      "spin about axis"
+    ],
+    "resolve_slide": "none",
+    "radius_relation": "r1 = r2 + clearance"
+  }
+}

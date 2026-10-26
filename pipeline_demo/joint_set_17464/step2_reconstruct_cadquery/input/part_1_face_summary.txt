@@ -1,0 +1,24 @@
+BODY 89527_b3bf425d_0031_1
+faces=6 edges=6 volume=0.157157 area=4.225599
+bbox min=(-0.300000, -1.300000, -0.300000) max=(0.300000, 0.000000, 0.300000)
+
+face  0 Cylinder  area=0.769847 centroid=(0.000000, -1.050000, 0.000000) normal=(0.000, 0.000, 1.000) radius=0.245050 axis=(0.000, -1.000, 0.000) origin=(0.000000, 0.000000, 0.000000)
+face  1 Plane     area=0.062987 centroid=(0.000000, -1.300000, -0.000000) normal=(0.000, 1.000, 0.000) (reversed: material on the other side)
+face  2 Cylinder  area=1.633628 centroid=(0.000000, -0.650000, 0.000000) normal=(-0.000, 0.000, -1.000) radius=0.200000 axis=(0.000, -1.000, 0.000) origin=(0.000000, 0.000000, 0.000000) (reversed: material on the other side)
+face  3 Cylinder  area=1.507964 centroid=(0.000000, -0.400000, 0.000000) normal=(0.000, 0.000, 1.000) radius=0.300000 axis=(0.000, -1.000, 0.000) origin=(0.000000, 0.000000, 0.000000)
+face  4 Plane     area=0.157080 centroid=(0.000000, 0.000000, 0.000000) normal=(0.000, 1.000, 0.000)
+face  5 Plane     area=0.094092 centroid=(0.000000, -0.800000, 0.000000) normal=(0.000, 1.000, 0.000) (reversed: material on the other side)
+edge  6 Circle3D  length=1.539695 Concave radius=0.245050 center=(0.000000, -0.800000, 0.000000)
+edge  7 Circle3D  length=1.539695 Convex radius=0.245050 center=(0.000000, -1.300000, 0.000000)
+edge  8 Circle3D  length=1.256637 Convex radius=0.200000 center=(0.000000, -1.300000, 0.000000)
+edge  9 Circle3D  length=1.256637 Convex radius=0.200000 center=(0.000000, 0.000000, 0.000000)
+edge 10 Circle3D  length=1.884956 Convex radius=0.300000 center=(0.000000, -0.800000, 0.000000)
+edge 11 Circle3D  length=1.884956 Convex radius=0.300000 center=(0.000000, 0.000000, 0.000000)
+
+edge -> faces it borders:
+  edge 6: faces [0, 5]
+  edge 7: faces [0, 1]
+  edge 8: faces [1, 2]
+  edge 9: faces [2, 4]
+  edge 10: faces [3, 5]
+  edge 11: faces [3, 4]

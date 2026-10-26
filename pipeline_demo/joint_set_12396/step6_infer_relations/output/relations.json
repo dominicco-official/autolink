@@ -1,0 +1,39 @@
+{
+  "joint_set": "joint_set_12396",
+  "driver_part": 2,
+  "dependent_part": 1,
+  "relations": [
+    {
+      "kind": "concentric_clearance",
+      "source": "step 4 joint rule",
+      "faces": {
+        "part1": 1,
+        "part2": 7
+      },
+      "equation": "part1.bore_radius = part2.tab_hole_r + 0.000000",
+      "dependent": {
+        "part": 1,
+        "param": "bore_radius"
+      },
+      "driver": {
+        "part": 2,
+        "param": "tab_hole_r"
+      },
+      "constant": 9.313225454721241e-08
+    },
+    {
+      "kind": "pose_constraint",
+      "source": "step 5",
+      "faces": {
+        "part1": 1,
+        "part2": 7,
+        "option": [
+          2,
+          4,
+          "opposed"
+        ]
+      },
+      "equation": "concentric + shoulders flush (re-solved after every edit)"
+    }
+  ]
+}

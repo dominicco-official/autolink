@@ -1,0 +1,43 @@
+{
+  "part1": {
+    "index": 0,
+    "entity": "BRepFace",
+    "geometry": "Cylinder",
+    "radius": 0.2,
+    "area_or_length": 0.5026548245743669,
+    "axis_origin": {
+      "type": "Point3D",
+      "x": 5.000000074505806,
+      "y": -0.7518283055604756,
+      "z": 6.100000090897083
+    },
+    "axis_direction": {
+      "type": "Vector3D",
+      "x": 0.0,
+      "y": -1.0,
+      "z": -2.220446049250313e-16,
+      "length": 1.0
+    }
+  },
+  "part2": {
+    "index": 0,
+    "entity": "BRepFace",
+    "geometry": "Cylinder",
+    "radius": 0.2,
+    "area_or_length": 0.37699111843077526,
+    "axis_origin": {
+      "type": "Point3D",
+      "x": 1.5000000223517418,
+      "y": 0.15000000000000002,
+      "z": 5.500000081956387
+    },
+    "axis_direction": {
+      "type": "Vector3D",
+      "x": 0.0,
+      "y": -1.0,
+      "z": -2.2204460492503126e-16,
+      "length": 1.0
+    }
+  },
+  "probability": 0.1455339789390564
+}

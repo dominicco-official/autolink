@@ -1,0 +1,17 @@
+{
+  "joint_set": "joint_set_08045",
+  "driver_part": 2,
+  "dependent_part": 1,
+  "relations": [
+    {
+      "kind": "pose_constraint",
+      "source": "step 5",
+      "faces": {
+        "part1": 0,
+        "part2": 6,
+        "option": null
+      },
+      "equation": "flush_mate (re-solved after every edit)"
+    }
+  ]
+}

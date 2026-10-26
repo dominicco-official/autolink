@@ -1,0 +1,107 @@
+{
+  "how": "nudge each parameter by +0.01, rebuild, record which DATASET faces change radius/position",
+  "part1": {
+    "0": {
+      "hole_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "floor": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "bore_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "wall": {
+        "d_radius/d_param": 1.0
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "1": {
+      "bore_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "floor": {
+        "d_position/d_param": 0.5
+      },
+      "height": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "2": {
+      "floor": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "4": {
+      "height": {
+        "d_position/d_param": 1.0
+      }
+    }
+  },
+  "part2": {
+    "0": {
+      "bore_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "bore_depth": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "1": {
+      "bore_depth": {
+        "d_position/d_param": 1.0
+      }
+    },
+    "2": {
+      "neck_radius": {
+        "d_radius/d_param": 1.0
+      },
+      "neck_length": {
+        "d_position/d_param": 0.5
+      }
+    },
+    "3": {
+      "neck_radius": {
+        "d_position/d_param": 0.1649
+      },
+      "neck_length": {
+        "d_position/d_param": 0.4306
+      },
+      "waist_x": {
+        "d_position/d_param": 0.5696
+      },
+      "waist_r": {
+        "d_position/d_param": 0.1183
+      },
+      "waist_arc_r": {
+        "d_position/d_param": 0.0126
+      }
+    },
+    "4": {
+      "waist_x": {
+        "d_position/d_param": 0.4857
+      },
+      "waist_r": {
+        "d_position/d_param": 0.0046
+      },
+      "belly_arc_r": {
+        "d_position/d_param": 0.0621
+      },
+      "length": {
+        "d_position/d_param": 0.5146
+      },
+      "tip_radius": {
+        "d_position/d_param": 0.099
+      }
+    },
+    "5": {
+      "length": {
+        "d_position/d_param": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "part1": {
+    "index": 5,
+    "entity": "BRepEdge",
+    "geometry": "Circle3D",
+    "radius": 0.08115,
+    "area_or_length": 0.5098804876776234,
+    "axis_origin": {
+      "type": "Point3D",
+      "x": -9.98547892471836,
+      "y": 5.000000074505806,
+      "z": 33.35314000212079
+    },
+    "axis_direction": {
+      "type": "Vector3D",
+      "x": -0.0,
+      "y": -1.0,
+      "z": -0.0,
+      "length": 1.0
+    }
+  },
+  "part2": {
+    "index": 4,
+    "entity": "BRepEdge",
+    "geometry": "Circle3D",
+    "radius": 0.09667500000000001,
+    "area_or_length": 0.6074269395715866,
+    "axis_origin": {
+      "type": "Point3D",
+      "x": 8.347286930717097,
+      "y": 4.500000074505806,
+      "z": 10.00020448518591
+    },
+    "axis_direction": {
+      "type": "Vector3D",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 2.2204460492503126e-16,
+      "length": 1.0
+    }
+  },
+  "probability": 0.1154898852109909
+}

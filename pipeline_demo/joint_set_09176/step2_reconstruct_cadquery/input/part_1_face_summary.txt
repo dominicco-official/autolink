@@ -1,0 +1,59 @@
+BODY 63166_658ce590_0004_1
+faces=13 edges=20 volume=0.205513 area=4.084393
+bbox min=(-0.884403, 1.350000, -4.604403) max=(-0.675597, 7.600000, -4.395597)
+
+face  0 Torus     area=0.067177 centroid=(-0.780000, 1.399116, -4.500000) normal=(0.674, -0.739, 0.000) axis=(0.000, -1.000, -0.000) origin=(-0.780000, 1.450000, -4.500000) curvatures=(-10.000000, -9.386640)
+face  1 Plane     area=0.000061 centroid=(-0.780000, 1.350000, -4.500000) normal=(0.000, 1.000, 0.000) (reversed: material on the other side)
+face  2 Cylinder  area=3.837504 centroid=(-0.780000, 4.375000, -4.500000) normal=(-0.000, 0.000, 1.000) radius=0.104403 axis=(-0.000, 1.000, 0.000) origin=(-0.780000, 7.300000, -4.500000)
+face  3 Plane     area=0.010945 centroid=(-0.719088, 7.300000, -4.500000) normal=(0.000, -1.000, 0.000) (reversed: material on the other side)
+face  4 Plane     area=0.000177 centroid=(-0.780000, 7.300000, -4.601764) normal=(0.000, -1.000, 0.000) (reversed: material on the other side)
+face  5 Plane     area=0.010945 centroid=(-0.840912, 7.300000, -4.500000) normal=(0.000, -1.000, 0.000) (reversed: material on the other side)
+face  6 Plane     area=0.000177 centroid=(-0.780000, 7.300000, -4.398236) normal=(0.000, -1.000, 0.000) (reversed: material on the other side)
+face  7 Cylinder  area=0.018850 centroid=(-0.780000, 7.500000, -4.500000) normal=(0.000, -1.000, -0.000) radius=0.050000 axis=(-1.000, -0.000, 0.000) origin=(-0.810000, 7.500000, -4.500000) (reversed: material on the other side)
+face  8 Plane     area=0.012000 centroid=(-0.780000, 7.400000, -4.600000) normal=(0.000, 0.000, -1.000)
+face  9 Cylinder  area=0.018850 centroid=(-0.780000, 7.563662, -4.500000) normal=(0.000, 1.000, 0.000) radius=0.100000 axis=(-1.000, -0.000, 0.000) origin=(-0.810000, 7.500000, -4.500000)
+face 10 Plane     area=0.012000 centroid=(-0.780000, 7.400000, -4.400000) normal=(0.000, -0.000, 1.000)
+face 11 Plane     area=0.047854 centroid=(-0.750000, 7.430344, -4.500000) normal=(1.000, -0.000, 0.000)
+face 12 Plane     area=0.047854 centroid=(-0.810000, 7.430344, -4.500000) normal=(1.000, -0.000, 0.000) (reversed: material on the other side)
+edge 13 Circle3D  length=0.655984 Smooth radius=0.104403 center=(-0.780000, 1.450000, -4.500000)
+edge 14 Circle3D  length=0.027665 Smooth radius=0.004403 center=(-0.780000, 1.350000, -4.500000)
+edge 15 Arc3D     length=0.267134 Convex radius=0.104403 center=(-0.780000, 7.300000, -4.500000)
+edge 16 Arc3D     length=0.060858 Convex radius=0.104403 center=(-0.780000, 7.300000, -4.500000)
+edge 17 Arc3D     length=0.267134 Convex radius=0.104403 center=(-0.780000, 7.300000, -4.500000)
+edge 18 Arc3D     length=0.060858 Convex radius=0.104403 center=(-0.780000, 7.300000, -4.500000)
+edge 19 Line3D    length=0.200000 Concave
+edge 20 Line3D    length=0.060000 Concave
+edge 21 Line3D    length=0.200000 Concave
+edge 22 Line3D    length=0.060000 Concave
+edge 23 Circle3D  length=0.314159 Convex radius=0.050000 center=(-0.750000, 7.500000, -4.500000)
+edge 24 Circle3D  length=0.314159 Convex radius=0.050000 center=(-0.810000, 7.500000, -4.500000)
+edge 25 Line3D    length=0.200000 Convex
+edge 26 Line3D    length=0.060000 Smooth
+edge 27 Line3D    length=0.200000 Convex
+edge 28 Arc3D     length=0.314159 Convex radius=0.100000 center=(-0.810000, 7.500000, -4.500000)
+edge 29 Line3D    length=0.060000 Smooth
+edge 30 Arc3D     length=0.314159 Convex radius=0.100000 center=(-0.750000, 7.500000, -4.500000)
+edge 31 Line3D    length=0.200000 Convex
+edge 32 Line3D    length=0.200000 Convex
+
+edge -> faces it borders:
+  edge 13: faces [0, 2]
+  edge 14: faces [0, 1]
+  edge 15: faces [2, 3]
+  edge 16: faces [2, 6]
+  edge 17: faces [2, 5]
+  edge 18: faces [2, 4]
+  edge 19: faces [3, 11]
+  edge 20: faces [4, 8]
+  edge 21: faces [5, 12]
+  edge 22: faces [6, 10]
+  edge 23: faces [7, 11]
+  edge 24: faces [7, 12]
+  edge 25: faces [8, 12]
+  edge 26: faces [8, 9]
+  edge 27: faces [8, 11]
+  edge 28: faces [9, 12]
+  edge 29: faces [9, 10]
+  edge 30: faces [9, 11]
+  edge 31: faces [10, 12]
+  edge 32: faces [10, 11]
